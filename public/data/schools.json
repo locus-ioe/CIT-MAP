@@ -1,0 +1,60 @@
+{
+  "Provinces": [
+    {
+      "name": "Province No. 1",
+      "schools": [
+        { "id": 1, "name": "Eastern Public School" },
+        { "id": 2, "name": "Arun Valley High School" },
+        { "id": 3, "name": "Mai Valley Academy" }
+      ]
+    },
+    {
+      "name": "Province No. 2",
+      "schools": [
+        { "id": 4, "name": "Janakpur Higher Secondary School" },
+        { "id": 5, "name": "Madhubani Academy" },
+        { "id": 6, "name": "Gajendra Vidhya Niketan" }
+      ]
+    },
+    {
+      "name": "Bagmati",
+      "schools": [
+        { "id": 7, "name": "Shuvatara School" },
+        { "id": 8, "name": "Rato Bangala School" },
+        { "id": 9, "name": "Budhanilkantha School" }
+      ]
+    },
+    {
+      "name": "Gandaki",
+      "schools": [
+        { "id": 10, "name": "Gandaki Boarding School" },
+        { "id": 11, "name": "Shree Amar Singh Model Secondary School" },
+        { "id": 12, "name": "Pokhara Secondary School" }
+      ]
+    },
+    {
+      "name": "Lumbini",
+      "schools": [
+        { "id": 13, "name": "Butwal Public School" },
+        { "id": 14, "name": "Siddhartha Shishu Sadan" },
+        { "id": 15, "name": "New Horizon English School" }
+      ]
+    },
+    {
+      "name": "Karnali",
+      "schools": [
+        { "id": 16, "name": "Karnali Academy of Health Sciences" },
+        { "id": 17, "name": "Jumla Model School" },
+        { "id": 18, "name": "Sani Bheri Secondary School" }
+      ]
+    },
+    {
+      "name": "Sudurpashchim",
+      "schools": [
+        { "id": 19, "name": "Sudur Model College" },
+        { "id": 20, "name": "Mahakali Secondary School" },
+        { "id": 21, "name": "Seti Provincial School" }
+      ]
+    }
+  ]
+}
