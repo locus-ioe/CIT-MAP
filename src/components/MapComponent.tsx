@@ -83,21 +83,32 @@ const MapComponent: React.FC<MapComponentProps> = ({
       {/* Render the popup if a province is selected */}
       {selectedPosition && (
         <Popup
+          maxWidth={250}
+          maxHeight={250}
           position={selectedPosition}
           eventHandlers={{
             remove: () => setSelectedPosition(null), // Set null when the popup is closed
           }}
         >
-          <div>
-            <h2>{selectedProvince}</h2>
-            <p>Schools in {selectedProvince}:</p>
-            <ul>
-              {schools.length > 0 ? (
-                schools.map((school) => <li key={school.id}>{school.name}</li>)
-              ) : (
-                <li>No schools found.</li>
-              )}
-            </ul>
+          <h1 className="text-xl font-bold text-gray-800 mb-4">
+            {selectedProvince}
+          </h1>
+          <div className="space-y-2 pr-2">
+            {schools.length > 0 ? (
+              schools.map((school) => (
+                <button
+                  key={school.id}
+                  onClick={() => {}} // Define the click handler
+                  className="w-full text-left bg-blue-500 text-white font-medium px-4 py-2 rounded-md shadow-md hover:bg-blue-600 transition duration-200"
+                >
+                  {school.name}
+                </button>
+              ))
+            ) : (
+              <p className="text-gray-500 col-span-2 text-center">
+                No schools found.
+              </p>
+            )}
           </div>
         </Popup>
       )}
