@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "id": 1,
-        "name": "Province No. 1",
+        "name": "Koshi Pradesh",
         "capital": "Biratnagar"
       },
       "geometry": {
@@ -3111,7 +3111,7 @@
       "type": "Feature",
       "properties": {
         "id": 2,
-        "name": "Province No. 2",
+        "name": "Madhesh Pradesh",
         "capital": "Janakpur"
       },
       "geometry": {
@@ -4931,7 +4931,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "id": 3, "name": "Bagmati", "capital": "Hetauda" },
+      "properties": {
+        "id": 3,
+        "name": "Bagmati Pradesh",
+        "capital": "Hetauda"
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -7641,7 +7645,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "id": 4, "name": "Gandaki", "capital": "Pokhara" },
+      "properties": {
+        "id": 4,
+        "name": "Gandaki Pradesh",
+        "capital": "Pokhara"
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -10585,7 +10593,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "id": 5, "name": "Lumbini", "capital": "Deukhuri" },
+      "properties": {
+        "id": 5,
+        "name": "Lumbini Pradesh",
+        "capital": "Deukhuri"
+      },
       "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
@@ -13557,7 +13569,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "id": 6, "name": "Karnali", "capital": "Birendranagar" },
+      "properties": {
+        "id": 6,
+        "name": "Karnali Pradesh",
+        "capital": "Birendranagar"
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -17676,7 +17692,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "id": 7, "name": "Sudurpashchim", "capital": "Godawari" },
+      "properties": {
+        "id": 7,
+        "name": "Sudurpashchim Pradesh",
+        "capital": "Godawari"
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
