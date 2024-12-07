@@ -94,9 +94,7 @@
       "name": "Karnali Pradesh",
       "schools": [
         { "id": 1, "name": "Amar Jyoti Ma Vi" },
-        { "id": 2, "name": "SOS" },
-        { "id": 3, "name": "Eager Bridge" },
-        { "id": 4, "name": "Surkhet Horizon Academy" }
+        { "id": 2, "name": "Surkhet Horizon Academy" }
       ]
     },
     {
