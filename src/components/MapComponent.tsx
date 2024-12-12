@@ -1,9 +1,14 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { MapContainer, TileLayer, GeoJSON, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import { LatLng, GeoJSON as LeafletGeoJSON, LeafletMouseEvent } from "leaflet";
 
-// Define the types for the incoming props
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+import imagesData from "../../public/data/images.json";
+
 interface School {
   id: number;
   name: string;
@@ -15,6 +20,14 @@ interface MapComponentProps {
   schools: School[];
 }
 
+interface Province {
+  [schoolName: string]: string[];
+}
+
+interface ImageData {
+  [provinceName: string]: Province;
+}
+
 const MapComponent: React.FC<MapComponentProps> = ({
   geoJsonData,
   onProvinceClick,
@@ -22,6 +35,9 @@ const MapComponent: React.FC<MapComponentProps> = ({
 }) => {
   const [selectedPosition, setSelectedPosition] = useState<LatLng | null>(null);
   const [selectedProvince, setSelectedProvince] = useState<string | null>(null);
+  const [selectedSchool, setSelectedSchool] = useState<School | null>(null);
+  const [selectedImages, setSelectedImages] = useState<string[]>([]);
+  const [showCarousel, setShowCarousel] = useState(false);
 
   const highlightFeature = (event: LeafletMouseEvent) => {
     const layer = event.target as LeafletGeoJSON;
@@ -61,58 +77,119 @@ const MapComponent: React.FC<MapComponentProps> = ({
     });
   };
 
+  const handleSchoolClick = (school: School) => {
+    if (selectedProvince) {
+      const images =
+        (imagesData as ImageData)[selectedProvince]?.[school.name] || [];
+
+      setSelectedImages(images);
+    }
+
+    setSelectedSchool(school);
+    setShowCarousel(true);
+  };
+
+  const renderCarousel = () => {
+    if (!selectedSchool || selectedImages.length === 0) return null;
+
+
+    console.log(selectedImages);
+    
+    const settings = {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true, // Enables automatic slide transition
+      autoplaySpeed: 3000, // Time in milliseconds between slides
+    };
+
+    return (
+      <div className="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50">
+        <div className="bg-white rounded-lg p-8 pb-12 max-w-3xl w-full relative">
+          <button
+            onClick={() => setShowCarousel(false)}
+            className="absolute top-4 right-4 text-red-500 text-lg font-bold px-3 py-1 rounded-full"
+          >
+            X
+          </button>
+          <h2 className="text-xl font-bold text-center mb-4">
+            {selectedSchool.name}
+          </h2>
+          <Slider {...settings}>
+            {selectedImages.map((src, index) => (
+              <div key={index} className="w-full h-96">
+                <img
+                  src={`/images/${selectedProvince}/${selectedSchool.name}/${src}`}
+                  alt={`Slide ${index + 1}`}
+                  className="object-contain w-full h-full"
+                />
+              </div>
+            ))}
+          </Slider>
+        </div>
+      </div>
+    );
+  };
+
   return (
-    <MapContainer
-      center={[28.3949, 84.124]}
-      zoom={8}
-      style={{ height: "100vh", width: "100%" }}
-    >
-      <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-      {geoJsonData && (
-        <GeoJSON
-          data={geoJsonData}
-          onEachFeature={onEachFeature}
-          style={{
-            weight: 2,
-            color: "#3388ff",
-            fillColor: "#ff7800",
-            fillOpacity: 0.5,
-          }}
-        />
-      )}
-      {/* Render the popup if a province is selected */}
-      {selectedPosition && (
-        <Popup
-          maxWidth={250}
-          maxHeight={250}
-          position={selectedPosition}
-          eventHandlers={{
-            remove: () => setSelectedPosition(null), // Set null when the popup is closed
-          }}
+    <>
+      {showCarousel ? (
+        renderCarousel()
+      ) : (
+        <MapContainer
+          center={[28.3949, 84.124]}
+          zoom={8}
+          style={{ height: "100vh", width: "100%" }}
         >
-          <h1 className="text-xl font-bold text-gray-800 mb-4">
-            {selectedProvince}
-          </h1>
-          <div className="space-y-2 pr-2">
-            {schools.length > 0 ? (
-              schools.map((school) => (
-                <button
-                  key={school.id}
-                  onClick={() => {}} // Define the click handler
-                  className="w-full text-left bg-blue-500 text-white font-medium px-4 py-2 rounded-md shadow-md hover:bg-blue-600 transition duration-200"
-                >
-                  {school.name}
-                </button>
-              ))
-            ) : (
-              <p className="text-gray-500 col-span-2 text-center">
-                No schools found.
-              </p>
-            )}
-          </div>
-        </Popup>
+          <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+          {geoJsonData && (
+            <GeoJSON
+              data={geoJsonData}
+              onEachFeature={onEachFeature}
+              style={{
+                weight: 2,
+                color: "#3388ff",
+                fillColor: "#ff7800",
+                fillOpacity: 0.5,
+              }}
+            />
+          )}
+          {selectedPosition && (
+            <Popup
+              maxWidth={250}
+              maxHeight={250}
+              position={selectedPosition}
+              eventHandlers={{
+                remove: () => setSelectedPosition(null), // Set null when the popup is closed
+              }}
+            >
+              <h1 className="text-xl font-bold text-gray-800 mb-4">
+                {selectedProvince}
+              </h1>
+              <div className="space-y-2 pr-2">
+                {schools.length > 0 ? (
+                  schools.map((school, index) => (
+                    <button
+                      key={index}
+                      onClick={() => handleSchoolClick(school)}
+                      className="w-full text-left bg-blue-500 text-white font-medium px-4 py-2 rounded-md shadow-md hover:bg-blue-600 transition duration-200"
+                    >
+                      {school.name}
+                    </button>
+                  ))
+                ) : (
+                  <p className="text-gray-500 col-span-2 text-center">
+                    No schools found.
+                  </p>
+                )}
+              </div>
+            </Popup>
+          )}
+        </MapContainer>
       )}
-    </MapContainer>
+    </>
   );
 };
 
