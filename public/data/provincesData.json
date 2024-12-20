@@ -1,7 +1,7 @@
 {
   "Koshi Pradesh": {
     "description": "Koshi Province, located in eastern Nepal, is known for its diverse geography ranging from the Himalayas to the Terai plains. Home to Mount Makalu and various ethnic communities, it's a hub of cultural diversity and natural beauty.",
-    "province_image": "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+    "provinceImage": "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
     "images": [
       "https://images.unsplash.com/photo-1544735716-392fe2489ffa",
       "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
@@ -35,7 +35,7 @@
   },
   "Madhesh Pradesh": {
     "description": "Madhesh Province spans the southern plains of Nepal, featuring rich agricultural land and cultural heritage. It plays a crucial role in Nepal's agriculture and trade with India.",
-    "province_image": "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+    "provinceImage": "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
     "images": [
       "https://images.unsplash.com/photo-1544735716-392fe2489ffa",
       "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
@@ -64,13 +64,10 @@
   },
   "Bagmati Pradesh": {
     "description": "Bagmati Province, home to Nepal's capital Kathmandu, is the political and cultural heart of Nepal. It includes major historical sites, including seven UNESCO World Heritage sites.",
-    "province_image": "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+    "provinceImage": "https://locus-ioe.github.io/CIT-MAP/Bagmati%20Pradesh/bagmati-province.jpeg",
     "images": [
-      "https://images.unsplash.com/photo-1544735716-392fe2489ffa",
-      "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
-      "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
-      "https://images.unsplash.com/photo-1518770660439-4636190af475",
-      "https://images.unsplash.com/photo-1605640840605-14ac1855827b"
+      "https://locus-ioe.github.io/CIT-MAP/Bagmati%20Pradesh/CIT/one.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Bagmati%20Pradesh/CIT/two.jpg"
     ],
     "schools": [
       {
@@ -99,7 +96,7 @@
   "Gandaki Pradesh": {
     "description": "Gandaki Province is renowned for its natural beauty, including the Annapurna mountain range and Pokhara Valley. It's a major tourist destination known for trekking and adventure sports.",
 
-    "province_image": "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+    "provinceImage": "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
     "images": [
       "https://images.unsplash.com/photo-1544735716-392fe2489ffa",
       "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
@@ -125,7 +122,7 @@
   "Lumbini Pradesh": {
     "description": "Lumbini Province, birthplace of Lord Buddha, is a significant pilgrimage site. The province combines religious importance with agricultural productivity.",
 
-    "province_image": "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+    "provinceImage": "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
     "images": [
       "https://images.unsplash.com/photo-1544735716-392fe2489ffa",
       "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
@@ -154,7 +151,7 @@
   },
   "Karnali Pradesh": {
     "description": "Karnali Province is Nepal's largest province by area, characterized by remote mountainous terrain. It preserves unique cultural traditions and pristine natural environments.",
-    "province_image": "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+    "provinceImage": "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
     "images": [
       "https://images.unsplash.com/photo-1544735716-392fe2489ffa",
       "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
@@ -178,7 +175,7 @@
   },
   "Sudurpashchim Pradesh": {
     "description": "Sudurpashchim Province, in far-western Nepal, is known for its diverse geography from Himalayas to plains. It hosts unique cultural practices and the famous Khaptad National Park.",
-    "province_image": "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+    "provinceImage": "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
     "images": [
       "https://images.unsplash.com/photo-1544735716-392fe2489ffa",
       "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
