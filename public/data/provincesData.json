@@ -1,7 +1,14 @@
 {
   "Koshi Pradesh": {
     "description": "Koshi Province, located in eastern Nepal, is known for its diverse geography ranging from the Himalayas to the Terai plains. Home to Mount Makalu and various ethnic communities, it's a hub of cultural diversity and natural beauty.",
-    "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa",
+    "province_image": "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+    "images": [
+      "https://images.unsplash.com/photo-1544735716-392fe2489ffa",
+      "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+      "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
+      "https://images.unsplash.com/photo-1518770660439-4636190af475",
+      "https://images.unsplash.com/photo-1605640840605-14ac1855827b"
+    ],
     "schools": [
       {
         "name": "Dharan Public School",
@@ -28,7 +35,14 @@
   },
   "Madhesh Pradesh": {
     "description": "Madhesh Province spans the southern plains of Nepal, featuring rich agricultural land and cultural heritage. It plays a crucial role in Nepal's agriculture and trade with India.",
-    "image": "https://images.unsplash.com/photo-1623677375828-30c246f6a338",
+    "province_image": "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+    "images": [
+      "https://images.unsplash.com/photo-1544735716-392fe2489ffa",
+      "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+      "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
+      "https://images.unsplash.com/photo-1518770660439-4636190af475",
+      "https://images.unsplash.com/photo-1605640840605-14ac1855827b"
+    ],
     "schools": [
       {
         "name": "Birgunj Institute",
@@ -50,7 +64,14 @@
   },
   "Bagmati Pradesh": {
     "description": "Bagmati Province, home to Nepal's capital Kathmandu, is the political and cultural heart of Nepal. It includes major historical sites, including seven UNESCO World Heritage sites.",
-    "image": "https://images.unsplash.com/photo-1605640840605-14ac1855827b",
+    "province_image": "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+    "images": [
+      "https://images.unsplash.com/photo-1544735716-392fe2489ffa",
+      "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+      "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
+      "https://images.unsplash.com/photo-1518770660439-4636190af475",
+      "https://images.unsplash.com/photo-1605640840605-14ac1855827b"
+    ],
     "schools": [
       {
         "name": "Kathmandu Model School",
@@ -77,7 +98,15 @@
   },
   "Gandaki Pradesh": {
     "description": "Gandaki Province is renowned for its natural beauty, including the Annapurna mountain range and Pokhara Valley. It's a major tourist destination known for trekking and adventure sports.",
-    "image": "https://images.unsplash.com/photo-1625046436057-2c99d0a51d81",
+
+    "province_image": "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+    "images": [
+      "https://images.unsplash.com/photo-1544735716-392fe2489ffa",
+      "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+      "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
+      "https://images.unsplash.com/photo-1518770660439-4636190af475",
+      "https://images.unsplash.com/photo-1605640840605-14ac1855827b"
+    ],
     "schools": [
       {
         "name": "Pokhara Valley School",
@@ -95,7 +124,15 @@
   },
   "Lumbini Pradesh": {
     "description": "Lumbini Province, birthplace of Lord Buddha, is a significant pilgrimage site. The province combines religious importance with agricultural productivity.",
-    "image": "https://images.unsplash.com/photo-1582653291997-079a1c04e5a1",
+
+    "province_image": "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+    "images": [
+      "https://images.unsplash.com/photo-1544735716-392fe2489ffa",
+      "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+      "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
+      "https://images.unsplash.com/photo-1518770660439-4636190af475",
+      "https://images.unsplash.com/photo-1605640840605-14ac1855827b"
+    ],
     "schools": [
       {
         "name": "Buddha Memorial School",
@@ -117,7 +154,14 @@
   },
   "Karnali Pradesh": {
     "description": "Karnali Province is Nepal's largest province by area, characterized by remote mountainous terrain. It preserves unique cultural traditions and pristine natural environments.",
-    "image": "https://images.unsplash.com/photo-1623677375828-30c246f6a338",
+    "province_image": "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+    "images": [
+      "https://images.unsplash.com/photo-1544735716-392fe2489ffa",
+      "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+      "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
+      "https://images.unsplash.com/photo-1518770660439-4636190af475",
+      "https://images.unsplash.com/photo-1605640840605-14ac1855827b"
+    ],
     "schools": [
       {
         "name": "Jumla Community School",
@@ -134,7 +178,14 @@
   },
   "Sudurpashchim Pradesh": {
     "description": "Sudurpashchim Province, in far-western Nepal, is known for its diverse geography from Himalayas to plains. It hosts unique cultural practices and the famous Khaptad National Park.",
-    "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa",
+    "province_image": "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+    "images": [
+      "https://images.unsplash.com/photo-1544735716-392fe2489ffa",
+      "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+      "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
+      "https://images.unsplash.com/photo-1518770660439-4636190af475",
+      "https://images.unsplash.com/photo-1605640840605-14ac1855827b"
+    ],
     "schools": [
       {
         "name": "Dhangadhi Academy",
