@@ -45,9 +45,7 @@ export const Map: React.FC<MapProps> = ({ geoJsonData, onProvinceClick }) => {
           onEachFeature={onEachFeature}
           style={{
             weight: 2,
-            color: "#3388ff",
-            fillColor: "#00a3a3",
-            fillOpacity: 0.1,
+            color: "#48bfba",
           }}
         />
       )}

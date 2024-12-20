@@ -36,7 +36,7 @@ const Index = () => {
   }, []);
 
   const handleProvinceClick = (province: string) => {
-    console.log(province, " was clicked")
+    console.log(province, " was clicked");
     setSelectedProvince(province);
   };
 
@@ -54,6 +54,9 @@ const Index = () => {
         isOpen={!!selectedProvince}
         onClose={handleCloseSidebar}
       />
+      <div className="absolute top-10 right-10 text-[#00a3a3] font-black text-5xl p-2 bg-opacity-75 z-10">
+        Children In Technology
+      </div>
     </div>
   );
 };
