@@ -2,16 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-.slick-prev:before,
-.slick-next:before {
-  color: black; /* Or any color that contrasts your background */
-  font-size: 32px; /* Optional: Adjust the size */
+
+@font-face {
+  font-family: "Nunito";
+  src: url("/fonts/Nunito.ttf");
 }
 
-.slick-prev {
-  left: 10px;
-}
-
-.slick-next {
-  right: 10px;
+body {
+  font-family: "Nunito";
 }
