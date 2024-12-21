@@ -1,3 +1,7 @@
+import { useState } from "react";
+import { useModal } from "../../hooks/use-modal";
+import ProvinceImageModal from "./ProvinceImageModal";
+
 interface ProvincePhotosProps {
   province: string;
   provinceImages: string[];
@@ -7,6 +11,14 @@ export const ProvincePhotos = ({
   province,
   provinceImages,
 }: ProvincePhotosProps) => {
+  const { open, openModal, closeModal } = useModal();
+  const [modalImageUrl, setModalImageUrl] = useState("");
+
+  const handleImageClick = (imageUrl: string) => {
+    setModalImageUrl(imageUrl);
+    openModal();
+  };
+
   return (
     <div className="space-y-4">
       <h3 className="text-xl font-medium text-[#2DD4BF]">
@@ -16,7 +28,8 @@ export const ProvincePhotos = ({
         {provinceImages.map((photo, index) => (
           <div
             key={index}
-            className="aspect-square bg-[#2DD4BF]/5 overflow-hidden rounded-lg"
+            className="aspect-square bg-[#2DD4BF]/5 overflow-hidden rounded-lg cursor-pointer"
+            onClick={() => handleImageClick(photo)}
           >
             <img
               src={photo}
@@ -26,6 +39,13 @@ export const ProvincePhotos = ({
           </div>
         ))}
       </div>
+      {open && (
+        <ProvinceImageModal
+          open={open}
+          imageUrl={modalImageUrl}
+          onClose={closeModal}
+        />
+      )}
     </div>
   );
 };
