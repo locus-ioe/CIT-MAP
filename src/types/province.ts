@@ -5,11 +5,6 @@ export interface SchoolInfo {
   email?: string;
 }
 
-export interface VolunteerInfo {
-  name: string;
-  contact?: string;
-}
-
 export interface ProvinceStats {
   schools: number;
   students: number;
@@ -22,6 +17,6 @@ export interface ProvinceData {
   description: string;
   images?: string[];
   schools?: SchoolInfo[];
-  volunteers?: VolunteerInfo[];
+  volunteers?: string[];
   stats: ProvinceStats;
 }

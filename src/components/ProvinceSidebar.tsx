@@ -70,7 +70,7 @@ export const ProvinceSidebar: React.FC<ProvinceSidebarProps> = ({
               mobileClasses
             )
           : cn(
-              "top-0 left-0 h-full w-[450px] border-r border-[#2DD4BF]/20",
+              "top-0 left-0 h-full w-[500px] border-r border-[#2DD4BF]/20",
               desktopClasses
             )
       )}

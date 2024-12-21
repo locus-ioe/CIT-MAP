@@ -7,7 +7,7 @@ export const ProvinceAbout = ({
   volunteers,
   stats,
 }: ProvinceData) => (
-  <div className="space-y-6">
+  <div className="space-y-6 mb-6">
     <div className="aspect-video w-full overflow-hidden">
       <img
         src={provinceImage}
@@ -24,17 +24,17 @@ export const ProvinceAbout = ({
     </div>
 
     <div>
-      <h3 className="text-2xl font-medium mb-4 text-[#2DD4BF]">Coverage</h3>
+      <h3 className="text-2xl font-semibold mb-4 text-[#2DD4BF]">Coverage</h3>
       <div className="grid grid-cols-3 gap-4">
         <div className="bg-gray-800/50 backdrop-blur-sm p-4 rounded-lg">
           <span className="text-3xl font-bold text-[#2DD4BF]">
-            {stats.districtNames?.length | 0}+
+            {stats.districtNames?.length | 0}
           </span>
           <p className="text-sm text-gray-400 mt-1">Districts</p>
         </div>
         <div className="bg-gray-800/50 backdrop-blur-sm p-4 rounded-lg">
           <span className="text-3xl font-bold text-[#2DD4BF]">
-            {stats.schools}+
+            {stats.schools}
           </span>
           <p className="text-sm text-gray-400 mt-1">Schools</p>
         </div>
@@ -49,7 +49,9 @@ export const ProvinceAbout = ({
 
     {stats.districtNames?.length != 0 && (
       <div>
-        <h3 className="text-2xl font-medium mb-4 text-[#2DD4BF]">Districts Covered</h3>
+        <h3 className="text-2xl font-semibold mb-4 text-[#2DD4BF]">
+          Districts Covered
+        </h3>
         <div className="grid grid-cols-[repeat(auto-fit,minmax(150px,1fr))] gap-2">
           {stats.districtNames?.map((district, index) => (
             <div
@@ -66,20 +68,19 @@ export const ProvinceAbout = ({
     )}
 
     {volunteers && (
-      <div>
-        <h3 className="text-2xl font-medium mb-4 text-[#2DD4BF]">
-          Our Volunteers
-        </h3>
-        <div className="space-y-3">
-          {volunteers.map((volunteer, index) => (
-            <div key={index} className="bg-[#2DD4BF]/5 p-4 backdrop-blur-sm">
-              <h4 className="text-lg font-medium text-[#2DD4BF] mb-1">
-                {volunteer.name}
-              </h4>
-            </div>
-          ))}
-        </div>
-      </div>
+      <div className="space-y-4">
+      <h3 className="text-2xl font-semibold text-[#2DD4BF] tracking-tight">Our Volunteers</h3>
+      <ul className="list-disc pl-5 space-y-2 ml-3">
+        {volunteers.map((volunteer, index) => (
+          <li 
+            key={index} 
+            className="text-gray-300 marker:text-[#2DD4BF]"
+          >
+            {volunteer}
+          </li>
+        ))}
+      </ul>
+    </div>
     )}
   </div>
 );
