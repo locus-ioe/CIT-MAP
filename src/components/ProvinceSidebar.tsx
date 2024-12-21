@@ -26,6 +26,7 @@ interface ProvinceData {
   images: string[];
   schools: SchoolInfo[];
   volunteers: VolunteerInfo[];
+  stats: { districts: number; students: number };
 }
 
 interface ProvinceSidebarProps {
@@ -51,6 +52,7 @@ export const ProvinceSidebar: React.FC<ProvinceSidebarProps> = ({
         const response = await axios.get<Record<string, ProvinceData>>(
           `/data/provincesData.json`
         );
+        console.log(response.data)
         setProvinceData(
           response.data[province] || {
             description: "Information not available",
@@ -60,6 +62,7 @@ export const ProvinceSidebar: React.FC<ProvinceSidebarProps> = ({
             ],
             schools: [],
             volunteers: [],
+            stats: { districts: 0, students: 0 },
           }
         );
       } catch (error) {
@@ -108,6 +111,7 @@ export const ProvinceSidebar: React.FC<ProvinceSidebarProps> = ({
             province={province}
             description={provinceData.description}
             volunteers={provinceData.volunteers}
+            stats={provinceData.stats}
           />
         )}
         {activeTab === "schools" && (

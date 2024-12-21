@@ -31,7 +31,11 @@
         "name": "Sita Rai",
         "contact": "984-1234567"
       }
-    ]
+    ],
+    "stats": {
+      "districts": 4,
+      "students": 150
+    }
   },
   "Madhesh Pradesh": {
     "description": "Madhesh Province spans the southern plains of Nepal, featuring rich agricultural land and cultural heritage. It plays a crucial role in Nepal's agriculture and trade with India.",
@@ -60,7 +64,11 @@
         "name": "Rajesh Kumar",
         "contact": "rajesh@madhesh.org"
       }
-    ]
+    ],
+    "stats": {
+      "districts": 4,
+      "students": 150
+    }
   },
   "Bagmati Pradesh": {
     "description": "Bagmati Province, home to Nepal's capital Kathmandu, is the political and cultural heart of Nepal. It includes major historical sites, including seven UNESCO World Heritage sites.",
@@ -91,7 +99,11 @@
         "name": "Ram Shrestha",
         "contact": "984-5678901"
       }
-    ]
+    ],
+    "stats": {
+      "districts": 4,
+      "students": 150
+    }
   },
   "Gandaki Pradesh": {
     "description": "Gandaki Province is renowned for its natural beauty, including the Annapurna mountain range and Pokhara Valley. It's a major tourist destination known for trekking and adventure sports.",
@@ -117,7 +129,11 @@
         "name": "Hari Gurung",
         "contact": "hari.g@gandaki.org"
       }
-    ]
+    ],
+    "stats": {
+      "districts": 4,
+      "students": 150
+    }
   },
   "Lumbini Pradesh": {
     "description": "Lumbini Province, birthplace of Lord Buddha, is a significant pilgrimage site. The province combines religious importance with agricultural productivity.",
@@ -147,7 +163,11 @@
         "name": "Deepak Thapa",
         "contact": "deepak@lumbini.org"
       }
-    ]
+    ],
+    "stats": {
+      "districts": 4,
+      "students": 150
+    }
   },
   "Karnali Pradesh": {
     "description": "Karnali Province is Nepal's largest province by area, characterized by remote mountainous terrain. It preserves unique cultural traditions and pristine natural environments.",
@@ -171,7 +191,11 @@
         "name": "Binod Budha",
         "contact": "binod@karnali.org"
       }
-    ]
+    ],
+    "stats": {
+      "districts": 4,
+      "students": 150
+    }
   },
   "Sudurpashchim Pradesh": {
     "description": "Sudurpashchim Province, in far-western Nepal, is known for its diverse geography from Himalayas to plains. It hosts unique cultural practices and the famous Khaptad National Park.",
@@ -195,6 +219,10 @@
         "name": "Nirmala Dhami",
         "contact": "981-2345678"
       }
-    ]
+    ],
+    "stats": {
+      "districts": 4,
+      "students": 150
+    }
   }
 }
