@@ -7,27 +7,7 @@ import { ProvinceAbout } from "./province/ProvinceAbout";
 import { ProvinceSchools } from "./province/ProvinceSchools";
 import { ProvincePhotos } from "./province/ProvincePhotos";
 import { useIsMobile } from "../hooks/use-mobile";
-
-interface SchoolInfo {
-  name: string;
-  address?: string;
-  phone?: string;
-  email?: string;
-}
-
-interface VolunteerInfo {
-  name: string;
-  contact?: string;
-}
-
-interface ProvinceData {
-  description: string;
-  provinceImage: string;
-  images: string[];
-  schools: SchoolInfo[];
-  volunteers: VolunteerInfo[];
-  stats: { districts: number; students: number };
-}
+import { ProvinceData } from "@/types/province";
 
 interface ProvinceSidebarProps {
   province: string;
@@ -52,17 +32,15 @@ export const ProvinceSidebar: React.FC<ProvinceSidebarProps> = ({
         const response = await axios.get<Record<string, ProvinceData>>(
           `/data/provincesData.json`
         );
-        console.log(response.data)
         setProvinceData(
           response.data[province] || {
-            description: "Information not available",
             provinceImage: "",
-            images: [
-              "https://images.unsplash.com/photo-1544735716-392fe2489ffa",
-            ],
+            province: "",
+            description: "Information not available",
+            images: [],
             schools: [],
             volunteers: [],
-            stats: { districts: 0, students: 0 },
+            stats: { districts: 0, students: 0, schools: 0 },
           }
         );
       } catch (error) {
@@ -71,6 +49,7 @@ export const ProvinceSidebar: React.FC<ProvinceSidebarProps> = ({
       }
     };
 
+    setActiveTab("about");
     fetchData();
   }, [province]);
 
@@ -107,7 +86,7 @@ export const ProvinceSidebar: React.FC<ProvinceSidebarProps> = ({
       >
         {activeTab === "about" && (
           <ProvinceAbout
-            image={provinceData.provinceImage}
+            provinceImage={provinceData.provinceImage}
             province={province}
             description={provinceData.description}
             volunteers={provinceData.volunteers}
