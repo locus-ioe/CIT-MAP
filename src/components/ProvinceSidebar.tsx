@@ -40,7 +40,7 @@ export const ProvinceSidebar: React.FC<ProvinceSidebarProps> = ({
             images: [],
             schools: [],
             volunteers: [],
-            stats: { districts: 0, students: 0, schools: 0 },
+            stats: {  students: 0, schools: 0 },
           }
         );
       } catch (error) {

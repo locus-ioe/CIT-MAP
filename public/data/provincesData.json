@@ -33,8 +33,9 @@
       }
     ],
     "stats": {
-      "districts": 4,
-      "students": 150
+      "schools": 4,
+      "students": 150,
+      "districtNames": ["Parsa", "Bara", "Rautahat", "Sarlahi"]
     }
   },
   "Madhesh Pradesh": {
@@ -66,8 +67,9 @@
       }
     ],
     "stats": {
-      "districts": 4,
-      "students": 150
+      "schools": 4,
+      "students": 150,
+      "districtNames": ["Parsa", "Bara", "Rautahat", "Sarlahi"]
     }
   },
   "Bagmati Pradesh": {
@@ -101,8 +103,9 @@
       }
     ],
     "stats": {
-      "districts": 4,
-      "students": 150
+      "schools": 4,
+      "students": 150,
+      "districtNames": ["Parsa", "Bara", "Rautahat", "Sarlahi"]
     }
   },
   "Gandaki Pradesh": {
@@ -131,9 +134,9 @@
       }
     ],
     "stats": {
-      "districts": 4,
       "schools": 10,
-      "students": 150
+      "students": 150,
+      "districtNames": ["Parsa", "Bara", "Rautahat", "Sarlahi"]
     }
   },
   "Lumbini Pradesh": {
@@ -166,9 +169,8 @@
       }
     ],
     "stats": {
-      "districts": 4,
+      "districtNames": ["Parsa", "Bara", "Rautahat", "Sarlahi"],
       "schools": 10,
-
       "students": 150
     }
   },
@@ -196,9 +198,8 @@
       }
     ],
     "stats": {
-      "districts": 4,
+      "districtNames": ["Parsa", "Bara", "Rautahat", "Sarlahi"],
       "schools": 10,
-
       "students": 150
     }
   },
@@ -226,7 +227,7 @@
       }
     ],
     "stats": {
-      "districts": 4,
+      "districtNames": ["Parsa", "Bara", "Rautahat", "Sarlahi"],
       "schools": 10,
       "students": 150
     }

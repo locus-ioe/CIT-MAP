@@ -11,9 +11,9 @@ export interface VolunteerInfo {
 }
 
 export interface ProvinceStats {
-  districts: number;
   schools: number;
   students: number;
+  districtNames?: string[];
 }
 
 export interface ProvinceData {
