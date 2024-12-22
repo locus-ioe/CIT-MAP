@@ -10,25 +10,43 @@ interface MapProps {
 }
 
 export const Map: React.FC<MapProps> = ({ geoJsonData, onProvinceClick }) => {
-  const [selectedPosition, setSelectedPosition] = useState<LatLng | null>(null);
   const isMobile = useIsMobile();
+
+  const styles = {
+    default: {
+      weight: 2,
+      color: "#4ca6a6",
+      fillOpacity: 0.3,
+    },
+    highlight: {
+      weight: 5,
+      color: "#2DD4BFaa",
+      fillOpacity: 0.5,
+    },
+  };
+
+  const highlightFeature = (event: LeafletMouseEvent) => {
+    const layer = event.target as LeafletGeoJSON;
+    layer.setStyle(styles.highlight);
+  };
+
+  const resetHighlight = (event: LeafletMouseEvent) => {
+    const layer = event.target as LeafletGeoJSON;
+    layer.setStyle(styles.default);
+  };
 
   const onEachFeature = (feature: GeoJSON.Feature, layer: LeafletGeoJSON) => {
     layer.on({
       click: () => {
-        if (layer && layer.getBounds) {
-          const bounds = layer.getBounds();
-          const center = bounds.getCenter(); // Get center of the clicked province
-          setSelectedPosition(center); // Store the center position for the popup
-          if (feature.properties && feature.properties.name) {
-            onProvinceClick(feature.properties.name); // Trigger the callback to get schools data
-          }
+        if (feature.properties && feature.properties.name) {
+          onProvinceClick(feature.properties.name);
         }
       },
+      mouseover: highlightFeature,
+      mouseout: resetHighlight,
     });
   };
 
-  console.log(isMobile);
   return (
     <MapContainer
       center={[28.3949, 84.124]}
@@ -43,10 +61,7 @@ export const Map: React.FC<MapProps> = ({ geoJsonData, onProvinceClick }) => {
         <GeoJSON
           data={geoJsonData}
           onEachFeature={onEachFeature}
-          style={{
-            weight: 2,
-            color: "#48bfba",
-          }}
+          style={styles.default}
         />
       )}
     </MapContainer>
