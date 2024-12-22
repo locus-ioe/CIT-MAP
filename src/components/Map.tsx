@@ -1,5 +1,12 @@
-import React, { useState } from "react";
-import { MapContainer, TileLayer, GeoJSON, Popup, Marker } from "react-leaflet";
+import React, { useEffect, useState } from "react";
+import {
+  MapContainer,
+  TileLayer,
+  GeoJSON,
+  Popup,
+  Marker,
+  useMap,
+} from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import { LatLng, GeoJSON as LeafletGeoJSON, LeafletMouseEvent } from "leaflet";
 import { useIsMobile } from "..//hooks/use-mobile";
@@ -70,11 +77,15 @@ export const Map: React.FC<MapProps> = ({
       center={[28.3949, 84.124]}
       zoom={isMobile ? 7 : 8}
       style={{ height: "100vh", width: "100%", zIndex: "10" }}
+      zoomControl={false}
     >
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       />
+
+      {/* Custom Zoom Control */}
+      <CustomZoomControl />
 
       {geoJsonData && (
         <GeoJSON
@@ -97,11 +108,31 @@ export const Map: React.FC<MapProps> = ({
             <Popup>
               <div className="text-center">
                 <strong className="text-teal-500 text-sm">{school.name}</strong>
-                
               </div>
             </Popup>
           </Marker>
         ))}
     </MapContainer>
   );
+};
+
+const CustomZoomControl = () => {
+  const map = useMap();
+
+  React.useEffect(() => {
+    // Add zoom control in the top-right position
+    const zoomControl = L.control.zoom({
+      position: "bottomright",
+    });
+
+    // Add the zoom control to the map
+    zoomControl.addTo(map);
+
+    // Cleanup on component unmount
+    return () => {
+      map.removeControl(zoomControl);
+    };
+  }, [map]);
+
+  return null;
 };
