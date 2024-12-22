@@ -17,7 +17,7 @@ export const ProvinceAbout = ({
     </div>
 
     <div>
-      <h3 className="text-2xl font-medium mb-4 text-[#2DD4BF]">
+      <h3 className="text-2xl font-semibold mb-4 text-[#2DD4BF]">
         About {province}
       </h3>
       <p className="text-base text-gray-400 leading-relaxed">{description}</p>
