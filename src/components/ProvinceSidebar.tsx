@@ -11,46 +11,24 @@ import { ProvinceData } from "@/types/province";
 
 interface ProvinceSidebarProps {
   province: string;
+  provinceData: ProvinceData;
   isOpen: boolean;
   onClose: () => void;
 }
 
 export const ProvinceSidebar: React.FC<ProvinceSidebarProps> = ({
   province,
+  provinceData,
   isOpen,
   onClose,
 }) => {
-  const [provinceData, setProvinceData] = useState<ProvinceData | null>(null);
   const [activeTab, setActiveTab] = useState<"about" | "schools" | "photos">(
     "about"
   );
   const isMobile = useIsMobile();
 
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await axios.get<Record<string, ProvinceData>>(
-          `/data/provincesData.json`
-        );
-        setProvinceData(
-          response.data[province] || {
-            provinceImage: "",
-            province: "",
-            description: "Information not available",
-            images: [],
-            schools: [],
-            volunteers: [],
-            stats: {  students: 0, schools: 0 },
-          }
-        );
-      } catch (error) {
-        console.error("Failed to fetch province data:", error);
-        setProvinceData(null);
-      }
-    };
-
     setActiveTab("about");
-    fetchData();
   }, [province]);
 
   const mobileClasses = isOpen ? "translate-y-0" : "translate-y-full";
