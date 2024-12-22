@@ -10,7 +10,7 @@
       "https://locus-ioe.github.io/CIT-MAP/Koshi%20Pradesh/CIT/five.jpg",
       "https://locus-ioe.github.io/CIT-MAP/Koshi%20Pradesh/CIT/six.jpg",
       "https://locus-ioe.github.io/CIT-MAP/Koshi%20Pradesh/CIT/seven.jpg",
-      "https://locus-ioe.github.io/CIT-MAP/Koshi%20Pradesh/CIT/eight.png",
+      "https://locus-ioe.github.io/CIT-MAP/Koshi%20Pradesh/CIT/eight.jpg",
       "https://locus-ioe.github.io/CIT-MAP/Koshi%20Pradesh/CIT/nine.jpg",
       "https://locus-ioe.github.io/CIT-MAP/Koshi%20Pradesh/CIT/ten.jpg",
       "https://locus-ioe.github.io/CIT-MAP/Koshi%20Pradesh/CIT/eleven.jpg",
@@ -18,10 +18,10 @@
     ],
     "schools": [
       {
-        "name": "Dharan Public School",
-        "address": "Dharan-15, Sunsari",
-        "phone": "025-520123",
-        "email": "dharanpublic@edu.np"
+        "name": "",
+        "address": "",
+        "phone": "",
+        "email": ""
       },
       {
         "name": "Biratnagar Model College",
@@ -34,12 +34,17 @@
       "Supreme Khadka",
       "Aayusha Thapa",
       "Anil Basnet",
-      "Bijayashree Koirala"
+      "Bijayashree Koirala",
+      "Shashi Adhikari",
+      "Sandip Rokaya",
+      "Bibek Dhakal",
+      "Anjan Roka",
+      "Sagar Nayak"
     ],
     "stats": {
-      "schools": 7,
-      "students": 358,
-      "districtNames": ["Morang", "Ilam"]
+      "schools": 14,
+      "students": 1012,
+      "districtNames": ["Morang", "Ilam", "Udayapur"]
     }
   },
   "Madhesh Pradesh": {
@@ -59,11 +64,17 @@
       "https://locus-ioe.github.io/CIT-MAP/Madhesh%20Pradesh/CIT/twelven.jpg"
     ],
     "schools": [],
-    "volunteers": [],
+    "volunteers": [
+      "Shashi Adhikari",
+      "Sandip Rokaya",
+      "Bibek Dhakal",
+      "Anjan Roka",
+      "Sagar Nayak"
+    ],
     "stats": {
-      "schools": 0,
-      "students": 0,
-      "districtNames": []
+      "schools": 10,
+      "students": 1101,
+      "districtNames": ["Siraha", "Dhanusha"]
     }
   },
   "Bagmati Pradesh": {
@@ -78,19 +89,7 @@
       "https://locus-ioe.github.io/CIT-MAP/Bagmati%20Pradesh/CIT/six.jpg",
       "https://locus-ioe.github.io/CIT-MAP/Bagmati%20Pradesh/CIT/seven.jpg"
     ],
-    "schools": [
-      {
-        "name": "Kathmandu Model School",
-        "address": "Baneshwor, Kathmandu",
-        "phone": "01-4469875",
-        "email": "info@kms.edu.np"
-      },
-      {
-        "name": "Lalitpur Secondary School",
-        "address": "Patan, Lalitpur",
-        "phone": "01-5555123"
-      }
-    ],
+    "schools": [],
     "volunteers": [
       "Saurav Kumar Mahato",
       "Susheel Thapa",
@@ -105,8 +104,8 @@
       "Kushal Paudel"
     ],
     "stats": {
-      "schools": 7,
-      "students": 552,
+      "schools": 12,
+      "students": 994,
       "districtNames": ["Chitwan", "Makwanpur"]
     }
   },
@@ -115,27 +114,19 @@
     "provinceImage": "https://locus-ioe.github.io/CIT-MAP/Gandaki%20Pradesh/gandaki-province.jpg",
     "images": [
       "https://locus-ioe.github.io/CIT-MAP/Gandaki%20Pradesh/CIT/one.jpg",
-      "https://locus-ioe.github.io/CIT-MAP/Gandaki%20Pradesh/CIT/two.png",
-      "https://locus-ioe.github.io/CIT-MAP/Gandaki%20Pradesh/CIT/three.png",
-      "https://locus-ioe.github.io/CIT-MAP/Gandaki%20Pradesh/CIT/four.png",
-      "https://locus-ioe.github.io/CIT-MAP/Gandaki%20Pradesh/CIT/five.png",
-      "https://locus-ioe.github.io/CIT-MAP/Gandaki%20Pradesh/CIT/six.png",
-      "https://locus-ioe.github.io/CIT-MAP/Gandaki%20Pradesh/CIT/seven.png",
-      "https://locus-ioe.github.io/CIT-MAP/Gandaki%20Pradesh/CIT/eight.png",
-      "https://locus-ioe.github.io/CIT-MAP/Gandaki%20Pradesh/CIT/nine.png",
-      "https://locus-ioe.github.io/CIT-MAP/Gandaki%20Pradesh/CIT/ten.png",
-      "https://locus-ioe.github.io/CIT-MAP/Gandaki%20Pradesh/CIT/eleven.png",
-      "https://locus-ioe.github.io/CIT-MAP/Gandaki%20Pradesh/CIT/twelve.png",
-      "https://locus-ioe.github.io/CIT-MAP/Gandaki%20Pradesh/CIT/thirteen.png"
+      "https://locus-ioe.github.io/CIT-MAP/Gandaki%20Pradesh/CIT/two.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Gandaki%20Pradesh/CIT/three.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Gandaki%20Pradesh/CIT/four.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Gandaki%20Pradesh/CIT/five.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Gandaki%20Pradesh/CIT/six.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Gandaki%20Pradesh/CIT/seven.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Gandaki%20Pradesh/CIT/eight.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Gandaki%20Pradesh/CIT/nine.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Gandaki%20Pradesh/CIT/eleven.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Gandaki%20Pradesh/CIT/twelven.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Gandaki%20Pradesh/CIT/thirteen.jpg"
     ],
-    "schools": [
-      {
-        "name": "Pokhara Valley School",
-        "address": "Lakeside, Pokhara",
-        "phone": "061-123456",
-        "email": "pvs@edu.np"
-      }
-    ],
+    "schools": [],
     "volunteers": [
       "Pratik Shrestha",
       "Pratik Tharu",
@@ -155,7 +146,7 @@
     ],
     "stats": {
       "schools": 16,
-      "students": 1076,
+      "students": 1096,
       "districtNames": [
         "Gorkha",
         "Lamjung",
@@ -171,19 +162,20 @@
   "Lumbini Pradesh": {
     "description": "Lumbini Province, birthplace of Lord Buddha, is a significant pilgrimage site. The province combines religious importance with agricultural productivity.",
     "provinceImage": "https://locus-ioe.github.io/CIT-MAP/Lumbini%20Pradesh/lumbini-province.jpg",
-    "images": [],
-    "schools": [
-      {
-        "name": "Buddha Memorial School",
-        "address": "Lumbini Cultural Municipality",
-        "email": "buddhamemorial@edu.np"
-      },
-      {
-        "name": "Butwal Technical Institute",
-        "address": "Butwal-11",
-        "phone": "071-445566"
-      }
+    "images": [
+      "https://locus-ioe.github.io/CIT-MAP/Lumbini%20Pradesh/CIT/one.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Lumbini%20Pradesh/CIT/two.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Lumbini%20Pradesh/CIT/three.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Lumbini%20Pradesh/CIT/four.JPG",
+      "https://locus-ioe.github.io/CIT-MAP/Lumbini%20Pradesh/CIT/five.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Lumbini%20Pradesh/CIT/six.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Lumbini%20Pradesh/CIT/seven.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Lumbini%20Pradesh/CIT/eight.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Lumbini%20Pradesh/CIT/nine.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Lumbini%20Pradesh/CIT/ten.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Lumbini%20Pradesh/CIT/eleven.jpg"
     ],
+    "schools": [],
     "volunteers": [
       "Subikshya Bista",
       "Aditi Kharel",
@@ -199,25 +191,21 @@
       "Anmol Chalise",
       "Janam Shrestha",
       "Mamata Maharjan",
-      "Kushal Paudel"
+      "Kushal Paudel",
+      "Bishram Acharya",
+      "Krishala Prajapati"
     ],
     "stats": {
       "districtNames": ["Rupandehi", "Gulmi", "Dang", "Banke", "Bardiya"],
-      "schools": 15,
-      "students": 269
+      "schools": 14,
+      "students": 1247
     }
   },
   "Karnali Pradesh": {
     "description": "Karnali Province is Nepal's largest province by area, characterized by remote mountainous terrain. It preserves unique cultural traditions and pristine natural environments.",
     "provinceImage": "https://locus-ioe.github.io/CIT-MAP/Karnali%20Pradesh/karnali-province.jpg",
     "images": [],
-    "schools": [
-      {
-        "name": "Jumla Community School",
-        "address": "Jumla Bazaar",
-        "phone": "087-520123"
-      }
-    ],
+    "schools": [],
     "volunteers": [
       "Biraj Kumar Karanjit",
       "Avahan Tamrakar",
@@ -233,12 +221,14 @@
       "Anmol Chalise",
       "Janam Shrestha",
       "Mamata Maharjan",
-      "Kushal Paudel"
+      "Kushal Paudel",
+      "Bishram Acharya",
+      "Krishala Prajapati"
     ],
     "stats": {
       "districtNames": ["Dailekh", "Jumla", "Surkhet"],
       "schools": 13,
-      "students": 726
+      "students": 951
     }
   },
   "Sudurpashchim Pradesh": {
@@ -247,22 +237,16 @@
     "images": [
       "https://locus-ioe.github.io/CIT-MAP/Sudurpashchim%20Pradesh/CIT/one.jpg",
       "https://locus-ioe.github.io/CIT-MAP/Sudurpashchim%20Pradesh/CIT/two.jpg",
-      "https://locus-ioe.github.io/CIT-MAP/Sudurpashchim%20Pradesh/CIT/three.png",
-      "https://locus-ioe.github.io/CIT-MAP/Sudurpashchim%20Pradesh/CIT/four.png",
-      "https://locus-ioe.github.io/CIT-MAP/Sudurpashchim%20Pradesh/CIT/five.png"
+      "https://locus-ioe.github.io/CIT-MAP/Sudurpashchim%20Pradesh/CIT/three.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Sudurpashchim%20Pradesh/CIT/four.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Sudurpashchim%20Pradesh/CIT/five.jpg"
     ],
-    "schools": [
-      {
-        "name": "Dhangadhi Academy",
-        "address": "Dhangadhi Sub-Metropolitan City",
-        "email": "info@dhangadhiacademy.edu.np"
-      }
-    ],
+    "schools": [],
     "volunteers": [],
     "stats": {
       "districtNames": [],
-      "schools": 0,
-      "students": 0
+      "schools": 6,
+      "students": 513
     }
   }
 }
