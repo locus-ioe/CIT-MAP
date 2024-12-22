@@ -1,44 +1,32 @@
-import { Mail, Phone, MapPin } from 'lucide-react';
-
-interface SchoolInfo {
-  name: string;
-  address?: string;
-  phone?: string;
-  email?: string;
-}
+import { SchoolInfo } from "@/types/province";
+import { Mail, Phone, MapPin } from "lucide-react";
 
 interface ProvinceSchoolsProps {
   province: string;
   schools: SchoolInfo[];
 }
 
-export const ProvinceSchools = ({ province, schools }: ProvinceSchoolsProps) => (
-  <div className="space-y-4">
-    <h3 className="text-xl font-medium text-[#2DD4BF]">Schools in {province}</h3>
+export const ProvinceSchools = ({
+  province,
+  schools,
+}: ProvinceSchoolsProps) => (
+<div className="space-y-6 p-4 rounded-md">
+    <h3 className="text-2xl font-semibold text-[#2DD4BF]">Schools in {province}</h3>
     <div className="space-y-4">
       {schools.map((school, index) => (
-        <div key={index} className="bg-[#2DD4BF]/5 p-4 space-y-3 backdrop-blur-sm">
-          <h4 className="text-lg font-medium text-[#2DD4BF]">{school.name}</h4>
-          {school.address && (
-            <div className="flex items-start gap-2 text-sm text-gray-400">
-              <MapPin className="w-4 h-4 mt-0.5 shrink-0" />
-              <span>{school.address}</span>
-            </div>
-          )}
-          {school.phone && (
-            <div className="flex items-center gap-2 text-sm text-gray-400">
-              <Phone className="w-4 h-4 shrink-0" />
-              <span>{school.phone}</span>
-            </div>
-          )}
-          {school.email && (
-            <div className="flex items-center gap-2 text-sm text-gray-400">
-              <Mail className="w-4 h-4 shrink-0" />
-              <span className="break-all">{school.email}</span>
-            </div>
-          )}
+        <div 
+          key={index} 
+          className="bg-[#2DD4BF]/5 p-3 px-4 rounded-md hover:bg-[#2DD4BF]/10 transition-colors duration-300"
+        >
+          <h4 
+            className="text-lg font-medium text-gray-400 hover:text-[#2DD4BF] hover:underline cursor-pointer rounded-2xlxl" 
+            onClick={() => window.open(`https://www.google.com/maps?q=${school.coordinates.lat},${school.coordinates.lng}`, '_blank')}
+          >
+            {school.name}
+          </h4>
         </div>
       ))}
     </div>
   </div>
+
 );

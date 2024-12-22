@@ -36,7 +36,6 @@ const Index = () => {
   }, []);
 
   const handleProvinceClick = (province: string) => {
-    console.log(province, " was clicked");
     setSelectedProvince(province);
   };
 

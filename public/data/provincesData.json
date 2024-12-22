@@ -1,73 +1,261 @@
 {
   "Koshi Pradesh": {
     "description": "Koshi Province, located in eastern Nepal, is known for its diverse geography ranging from the Himalayas to the Terai plains. Home to Mount Makalu and various ethnic communities, it's a hub of cultural diversity and natural beauty.",
-    "provinceImage": "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+    "provinceImage": "https://locus-ioe.github.io/CIT-MAP/Koshi%20Pradesh/koshi-province.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1544735716-392fe2489ffa",
-      "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
-      "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
-      "https://images.unsplash.com/photo-1518770660439-4636190af475",
-      "https://images.unsplash.com/photo-1605640840605-14ac1855827b"
+      "https://locus-ioe.github.io/CIT-MAP/Koshi%20Pradesh/CIT/one.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Koshi%20Pradesh/CIT/two.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Koshi%20Pradesh/CIT/three.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Koshi%20Pradesh/CIT/four.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Koshi%20Pradesh/CIT/five.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Koshi%20Pradesh/CIT/six.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Koshi%20Pradesh/CIT/seven.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Koshi%20Pradesh/CIT/eight.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Koshi%20Pradesh/CIT/nine.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Koshi%20Pradesh/CIT/ten.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Koshi%20Pradesh/CIT/eleven.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Koshi%20Pradesh/CIT/twelven.jpg"
     ],
     "schools": [
       {
-        "name": "Dharan Public School",
-        "address": "Dharan-15, Sunsari",
-        "phone": "025-520123",
-        "email": "dharanpublic@edu.np"
+        "name": "Shree Janata Namuna Secondary School",
+        "coordinates": {
+          "lat": "26.47239075702366",
+          "lng": "87.2818511"
+        }
       },
       {
-        "name": "Biratnagar Model College",
-        "address": "Biratnagar-4, Morang",
-        "email": "info@bmc.edu.np"
+        "name": "Gograha Ma Vi",
+        "coordinates": {
+          "lat": "26.473489736305467",
+          "lng": "87.27567757899024"
+        }
+      },
+      {
+        "name": "Siddhartha Shishu Sadan School",
+        "coordinates": {
+          "lat": "26.46698384801772",
+          "lng": "87.27110641349181"
+        }
+      },
+      {
+        "name": "SHREE AMAR SECONDARY SCHOOL",
+        "coordinates": {
+          "lat": "26.94975068239954",
+          "lng": "87.91981891349182"
+        }
+      },
+      {
+        "name": "\tSunakhari Secondary English Boarding School",
+        "coordinates": {
+          "lat": "26.882681338833855",
+          "lng": "87.91400377116392"
+        }
+      },
+      {
+        "name": "Samata School Ilam\t",
+        "coordinates": {
+          "lat": "26.908686170512997",
+          "lng": "87.93078299999999"
+        }
+      },
+      {
+        "name": "Heritage National Academy\t",
+        "coordinates": {
+          "lat": "26.907216059332296",
+          "lng": "87.92629724232788"
+        }
+      },
+      {
+        "name": "Cohed College",
+        "coordinates": {
+          "lat": "26.640804122322145",
+          "lng": "87.99462195382772"
+        }
+      },
+      {
+        "name": "Balmiki Education Foundation",
+        "coordinates": {
+          "lat": "26.644807176964406",
+          "lng": "87.98414292482326"
+        }
+      },
+      {
+        "name": "KK International School",
+        "coordinates": {
+          "lat": "26.801562520926698",
+          "lng": "87.29847287879267"
+        }
+      },
+      {
+        "name": "Dharan Model School",
+        "coordinates": {
+          "lat": "26.807528892291675",
+          "lng": "87.28871952297465"
+        }
+      },
+      {
+        "name": "Jyoti Secondary School",
+        "coordinates": {
+          "lat": "26.81422",
+          "lng": "86.88509"
+        }
+      },
+      {
+        "name": "Sagarmatha Secondary School",
+        "coordinates": {
+          "lat": "26.798651",
+          "lng": "86.893652"
+        }
+      },
+      {
+        "name": "Marigold Secondary School",
+        "coordinates": {
+          "lat": "26.804882",
+          "lng": "86.894099"
+        }
       }
     ],
     "volunteers": [
-      {
-        "name": "Pemba Sherpa",
-        "contact": "pemba.sherpa@volunteer.org"
-      },
-      {
-        "name": "Sita Rai",
-        "contact": "984-1234567"
-      }
+      "Sanju KC",
+      "Supreme Khadka",
+      "Aayusha Thapa",
+      "Anil Basnet",
+      "Bijayashree Koirala",
+      "Shashi Adhikari",
+      "Sandip Rokaya",
+      "Bibek Dhakal",
+      "Anjan Roka",
+      "Sagar Nayak",
+      "Bipin Devkota",
+      "Kshitij Thapa",
+      "Avishek Aryal",
+      "Avishek Khadka",
+      "Nirmal Kunwar"
     ],
     "stats": {
-      "districts": 4,
-      "students": 150
+      "schools": 14,
+      "students": 1012,
+      "districtNames": ["Morang", "Ilam", "Udayapur", "Dharan", "Jhapa"]
     }
   },
   "Madhesh Pradesh": {
     "description": "Madhesh Province spans the southern plains of Nepal, featuring rich agricultural land and cultural heritage. It plays a crucial role in Nepal's agriculture and trade with India.",
-    "provinceImage": "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+    "provinceImage": "https://locus-ioe.github.io/CIT-MAP/Madhesh%20Pradesh/madhesh-province.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1544735716-392fe2489ffa",
-      "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
-      "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
-      "https://images.unsplash.com/photo-1518770660439-4636190af475",
-      "https://images.unsplash.com/photo-1605640840605-14ac1855827b"
+      "https://locus-ioe.github.io/CIT-MAP/Madhesh%20Pradesh/CIT/one.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Madhesh%20Pradesh/CIT/two.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Madhesh%20Pradesh/CIT/four.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Madhesh%20Pradesh/CIT/five.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Madhesh%20Pradesh/CIT/six.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Madhesh%20Pradesh/CIT/seven.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Madhesh%20Pradesh/CIT/eight.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Madhesh%20Pradesh/CIT/nine.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Madhesh%20Pradesh/CIT/ten.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Madhesh%20Pradesh/CIT/eleven.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Madhesh%20Pradesh/CIT/twelven.jpg"
     ],
     "schools": [
       {
-        "name": "Birgunj Institute",
-        "address": "Birgunj Metropolitan City",
-        "phone": "051-522345"
+        "name": "Sunshine Secondary School",
+        "coordinates": {
+          "lat": "26.999506188293246",
+          "lng": "85.90401583647254"
+        }
       },
       {
-        "name": "Janaki Secondary School",
-        "address": "Janakpur-4",
-        "email": "janaki.school@edu.np"
+        "name": "Global Academy",
+        "coordinates": {
+          "lat": "26.988729724741205",
+          "lng": "85.8960231383266"
+        }
+      },
+      {
+        "name": "Janta Ma Vi",
+        "coordinates": {
+          "lat": "26.6397",
+          "lng": "86.1853\u00b0"
+        }
+      },
+      {
+        "name": "Mt. Everest Secondary School",
+        "coordinates": {
+          "lat": "26.65278; 86.20750",
+          "lng": null
+        }
+      },
+      {
+        "name": "Janaki Ma Vi",
+        "coordinates": {
+          "lat": "26.7271",
+          "lng": "85.9407"
+        }
+      },
+      {
+        "name": "Shree Mahabir janata Ma Vi (Haripur, Sarlahi)",
+        "coordinates": {
+          "lat": "27.01844999520525",
+          "lng": "85.57205268672386"
+        }
+      },
+      {
+        "name": "Shree Subedar Nandalal janata Ma Vi (velhi, Sarlahi)",
+        "coordinates": {
+          "lat": "26.871681771692565",
+          "lng": "85.58921473375132"
+        }
+      },
+      {
+        "name": "Kshireshwar janta H.S.School (Mahendranagar, Dhanusha)",
+        "coordinates": {
+          "lat": "26.869521236916004",
+          "lng": "85.9695117318519"
+        }
+      },
+      {
+        "name": "Shree Mahobani Padam Ma.Vi.School, pokhariya",
+        "coordinates": {
+          "lat": "27.061709262551553",
+          "lng": "84.76781346763416"
+        }
+      },
+      {
+        "name": "Shree nepal rastriye higher seconday school (Simara)",
+        "coordinates": {
+          "lat": "27.16432885871283",
+          "lng": "84.97381242841641"
+        }
       }
     ],
     "volunteers": [
-      {
-        "name": "Rajesh Kumar",
-        "contact": "rajesh@madhesh.org"
-      }
+      "Shashi Adhikari",
+      "Sandip Rokaya",
+      "Bibek Dhakal",
+      "Anjan Roka",
+      "Sagar Nayak",
+      "Bipin Devkota",
+      "Kshitij Thapa",
+      "Avishek Aryal",
+      "Avishek Khadka",
+      "Nirmal Kunwar",
+      "Purushottam Thakur",
+      "Saurab Maharjan",
+      "Apekshya Shakya",
+      "Aayush  Jha",
+      "Raju Gupta"
     ],
     "stats": {
-      "districts": 4,
-      "students": 150
+      "schools": 10,
+      "students": 1101,
+      "districtNames": [
+        "Siraha",
+        "Dhanusha",
+        "Mahottari",
+        "Sarlahi",
+        "Rautahat",
+        "Bara",
+        "Parsa"
+      ]
     }
   },
   "Bagmati Pradesh": {
@@ -75,154 +263,628 @@
     "provinceImage": "https://locus-ioe.github.io/CIT-MAP/Bagmati%20Pradesh/bagmati-province.jpeg",
     "images": [
       "https://locus-ioe.github.io/CIT-MAP/Bagmati%20Pradesh/CIT/one.jpg",
-      "https://locus-ioe.github.io/CIT-MAP/Bagmati%20Pradesh/CIT/two.jpg"
+      "https://locus-ioe.github.io/CIT-MAP/Bagmati%20Pradesh/CIT/two.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Bagmati%20Pradesh/CIT/three.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Bagmati%20Pradesh/CIT/four.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Bagmati%20Pradesh/CIT/five.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Bagmati%20Pradesh/CIT/six.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Bagmati%20Pradesh/CIT/seven.jpg"
     ],
     "schools": [
       {
-        "name": "Kathmandu Model School",
-        "address": "Baneshwor, Kathmandu",
-        "phone": "01-4469875",
-        "email": "info@kms.edu.np"
+        "name": "Shree Aadhunik Rastriya Secondary School",
+        "coordinates": {
+          "lat": "27.427171741730895",
+          "lng": "85.03450601755415"
+        }
       },
       {
-        "name": "Lalitpur Secondary School",
-        "address": "Patan, Lalitpur",
-        "phone": "01-5555123"
+        "name": "Gyanodaya Balbatika Awasiya School",
+        "coordinates": {
+          "lat": "27.418706208782407",
+          "lng": "85.04840028590105"
+        }
+      },
+      {
+        "name": "G.S Niketan Madhyamik School",
+        "coordinates": {
+          "lat": "27.42311153475936",
+          "lng": "85.04033889032851"
+        }
+      },
+      {
+        "name": "Sainik Awasiya Mahavidyalaya School",
+        "coordinates": {
+          "lat": "27.62186763654999",
+          "lng": "84.56880040026759"
+        }
+      },
+      {
+        "name": "Shree Adarsha Secondary School",
+        "coordinates": {
+          "lat": "27.607793249543636",
+          "lng": "84.26719954779831"
+        }
+      },
+      {
+        "name": "Aroma English Secondary School ",
+        "coordinates": {
+          "lat": "27.675891784644847",
+          "lng": "84.43406146996213"
+        }
+      },
+      {
+        "name": "Gyandarshan English Secondary School",
+        "coordinates": {
+          "lat": "27.692746621158946",
+          "lng": "84.45158195544208"
+        }
+      },
+      {
+        "name": "Bode Secondary School",
+        "coordinates": {
+          "lat": "27.691935274745017",
+          "lng": "85.38691591204505"
+        }
+      },
+      {
+        "name": "Active English Secondary School",
+        "coordinates": {
+          "lat": "27.682159689033938",
+          "lng": "85.38544308320837"
+        }
+      },
+      {
+        "name": "Shree Bhimsengola Secondary School",
+        "coordinates": {
+          "lat": "27.690170578330406",
+          "lng": "85.3407023255358"
+        }
+      },
+      {
+        "name": "Padmodaya Secondary School",
+        "coordinates": {
+          "lat": "27.701603463719287",
+          "lng": "85.32167295437253"
+        }
+      },
+      {
+        "name": "Adarsha Secondary School ",
+        "coordinates": {
+          "lat": "27.677592840936363",
+          "lng": "85.3858911898921"
+        }
+      },
+      {
+        "name": "Baal Premi School ",
+        "coordinates": {
+          "lat": "27.67615647001114",
+          "lng": "85.3834542212829"
+        }
+      },
+      {
+        "name": "Dhading Boarding S.S",
+        "coordinates": {
+          "lat": "27.912059513975926",
+          "lng": "84.88909417343609"
+        }
       }
     ],
     "volunteers": [
-      {
-        "name": "Maya Tamang",
-        "contact": "maya.t@bagmati.org"
-      },
-      {
-        "name": "Ram Shrestha",
-        "contact": "984-5678901"
-      }
+      "Saurav Kumar Mahato",
+      "Susheel Thapa",
+      "Rajendra Khanal",
+      "Raj Kumar Paneru",
+      "Vishal Pokharel",
+      "Kashish Bataju",
+      "Ashim Bahadur Karki",
+      "Anmol Chalise",
+      "Janam Shrestha",
+      "Mamata Maharjan",
+      "Kushal Paudel",
+      "Bishram Acharya",
+      "Krishala Prajapati",
+      "Aarjan Budathoki",
+      "Aayush Luitel",
+      "Manish Guruwacharya",
+      "Pasang Sherpa",
+      "Rythm Panta",
+      "Sabin Shrestha"
     ],
     "stats": {
-      "districts": 4,
-      "students": 150
+      "schools": 12,
+      "students": 994,
+      "districtNames": ["Chitwan", "Makwanpur", "Dhading", "Nuwakot", "Rasuwa"]
     }
   },
   "Gandaki Pradesh": {
     "description": "Gandaki Province is renowned for its natural beauty, including the Annapurna mountain range and Pokhara Valley. It's a major tourist destination known for trekking and adventure sports.",
-
-    "provinceImage": "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+    "provinceImage": "https://locus-ioe.github.io/CIT-MAP/Gandaki%20Pradesh/gandaki-province.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1544735716-392fe2489ffa",
-      "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
-      "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
-      "https://images.unsplash.com/photo-1518770660439-4636190af475",
-      "https://images.unsplash.com/photo-1605640840605-14ac1855827b"
+      "https://locus-ioe.github.io/CIT-MAP/Gandaki%20Pradesh/CIT/one.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Gandaki%20Pradesh/CIT/two.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Gandaki%20Pradesh/CIT/three.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Gandaki%20Pradesh/CIT/four.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Gandaki%20Pradesh/CIT/five.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Gandaki%20Pradesh/CIT/six.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Gandaki%20Pradesh/CIT/seven.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Gandaki%20Pradesh/CIT/eight.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Gandaki%20Pradesh/CIT/nine.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Gandaki%20Pradesh/CIT/eleven.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Gandaki%20Pradesh/CIT/twelven.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Gandaki%20Pradesh/CIT/thirteen.jpg"
     ],
     "schools": [
       {
-        "name": "Pokhara Valley School",
-        "address": "Lakeside, Pokhara",
-        "phone": "061-123456",
-        "email": "pvs@edu.np"
+        "name": "The Old Capital Secondary School",
+        "coordinates": {
+          "lat": "27.993563526754617",
+          "lng": "84.63114022399571"
+        }
+      },
+      {
+        "name": "Modern Secondary English Boarding School",
+        "coordinates": {
+          "lat": "27.993832132135303",
+          "lng": "84.62475022399575"
+        }
+      },
+      {
+        "name": "Shree Bal Kalyan Secondary School",
+        "coordinates": {
+          "lat": "28.204231150494955",
+          "lng": "84.39401586374701"
+        }
+      },
+      {
+        "name": "BVM School",
+        "coordinates": {
+          "lat": "28.06263598340458",
+          "lng": "84.07005326818161"
+        }
+      },
+      {
+        "name": "Panchamunidev Secondary School",
+        "coordinates": {
+          "lat": "28.048519413282634",
+          "lng": "84.07531441793114"
+        }
+      },
+      {
+        "name": "Barahi ma vi",
+        "coordinates": {
+          "lat": "28.22957878429971",
+          "lng": "83.9738642025253"
+        }
+      },
+      {
+        "name": "Jana prakash Ma vi",
+        "coordinates": {
+          "lat": "28.150407990526244",
+          "lng": "84.06511489498273"
+        }
+      },
+      {
+        "name": "Kalika Mavi",
+        "coordinates": {
+          "lat": "28.122073614890954",
+          "lng": "84.06861272929275"
+        }
+      },
+      {
+        "name": "Tribhuvan Ma vi",
+        "coordinates": {
+          "lat": "28.110634085681916",
+          "lng": "83.87402811133255"
+        }
+      },
+      {
+        "name": "Matribhumi MA vi",
+        "coordinates": {
+          "lat": "28.09393261507021",
+          "lng": "83.83116188411891"
+        }
+      },
+      {
+        "name": " Kaligandaki Secondary School",
+        "coordinates": {
+          "lat": "28.26651036479338",
+          "lng": "83.59779141349142"
+        }
+      },
+      {
+        "name": "Beni Community Secondary School",
+        "coordinates": {
+          "lat": "28.342622149378876",
+          "lng": "83.5637551898403"
+        }
+      },
+      {
+        "name": "Mount Everest Boarding School",
+        "coordinates": {
+          "lat": "28.342896900448483",
+          "lng": "83.5578405791005"
+        }
+      },
+      {
+        "name": "Shree Gyan Prakash Model Secondary School",
+        "coordinates": {
+          "lat": "28.540287730352343",
+          "lng": "83.64720655129385"
+        }
+      },
+      {
+        "name": "Namuna Secondary Boarding School",
+        "coordinates": {
+          "lat": "28.220135462600762",
+          "lng": "83.68101097212175"
+        }
+      },
+      {
+        "name": "Shaheed Smarak English Boarding School",
+        "coordinates": {
+          "lat": "28.218559564540417",
+          "lng": "83.68043981227312"
+        }
+      },
+      {
+        "name": "Shree Saraswati S.S",
+        "coordinates": {
+          "lat": "27.931729688777395",
+          "lng": "84.9835811803367"
+        }
       }
     ],
     "volunteers": [
-      {
-        "name": "Hari Gurung",
-        "contact": "hari.g@gandaki.org"
-      }
+      "Pratik Shrestha",
+      "Pratik Tharu",
+      "Pratik Lama",
+      "Sujan Kapali",
+      "Sandesh Pokharel",
+      "Satyasa Khadka",
+      "Sandhya Baral",
+      "Shuvangi Adhikari",
+      "Subham Shrestha",
+      "Sudip Tiwari",
+      "Nirmal Rana",
+      "Nayan Pandey",
+      "Subash Lamichhane",
+      "Pradeep Bhattarai",
+      "Surav Krishna Shrestha"
     ],
     "stats": {
-      "districts": 4,
-      "students": 150
+      "schools": 16,
+      "students": 1096,
+      "districtNames": [
+        "Gorkha",
+        "Lamjung",
+        "Tanahun",
+        "Pokhara",
+        "Syangja",
+        "Myagdi",
+        "Baglung",
+        "Parbat"
+      ]
     }
   },
   "Lumbini Pradesh": {
     "description": "Lumbini Province, birthplace of Lord Buddha, is a significant pilgrimage site. The province combines religious importance with agricultural productivity.",
-
-    "provinceImage": "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+    "provinceImage": "https://locus-ioe.github.io/CIT-MAP/Lumbini%20Pradesh/lumbini-province.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1544735716-392fe2489ffa",
-      "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
-      "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
-      "https://images.unsplash.com/photo-1518770660439-4636190af475",
-      "https://images.unsplash.com/photo-1605640840605-14ac1855827b"
+      "https://locus-ioe.github.io/CIT-MAP/Lumbini%20Pradesh/CIT/one.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Lumbini%20Pradesh/CIT/two.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Lumbini%20Pradesh/CIT/three.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Lumbini%20Pradesh/CIT/four.JPG",
+      "https://locus-ioe.github.io/CIT-MAP/Lumbini%20Pradesh/CIT/five.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Lumbini%20Pradesh/CIT/six.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Lumbini%20Pradesh/CIT/seven.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Lumbini%20Pradesh/CIT/eight.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Lumbini%20Pradesh/CIT/nine.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Lumbini%20Pradesh/CIT/ten.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Lumbini%20Pradesh/CIT/eleven.jpg"
     ],
     "schools": [
       {
-        "name": "Buddha Memorial School",
-        "address": "Lumbini Cultural Municipality",
-        "email": "buddhamemorial@edu.np"
+        "name": "Shree Dhur Ma Vi",
+        "coordinates": {
+          "lat": "28.10960929224215",
+          "lng": "83.14395511749994"
+        }
       },
       {
-        "name": "Butwal Technical Institute",
-        "address": "Butwal-11",
-        "phone": "071-445566"
+        "name": "Himalayan Higher Secondary School",
+        "coordinates": {
+          "lat": "28.116359455759408",
+          "lng": "83.16444011380635"
+        }
+      },
+      {
+        "name": "Bal Vidhya ,kohalpur",
+        "coordinates": {
+          "lat": "28.23916469477192",
+          "lng": "81.69469057266997"
+        }
+      },
+      {
+        "name": "Kalika Manavgyan Secondary school",
+        "coordinates": {
+          "lat": "27.681997335569015",
+          "lng": "83.46552951135345"
+        }
+      },
+      {
+        "name": "Tilottama Sec School",
+        "coordinates": {
+          "lat": "27.75124206062285",
+          "lng": "83.49911094317042"
+        }
+      },
+      {
+        "name": "Shree Adarsh Higher Secondary School",
+        "coordinates": {
+          "lat": "27.87265426224306",
+          "lng": "82.50808066359606"
+        }
+      },
+      {
+        "name": "Sunlight Modern Sec schoo",
+        "coordinates": {
+          "lat": "27.87256336221492",
+          "lng": "82.51779599251398"
+        }
+      },
+      {
+        "name": "Rosy Buds Bal Batika Secondary Schoo",
+        "coordinates": {
+          "lat": "27.86073284677687",
+          "lng": "82.52758998141002"
+        }
+      },
+      {
+        "name": "Gorkha secondary school,",
+        "coordinates": {
+          "lat": "28.23232958490828",
+          "lng": "81.67677573578446"
+        }
+      },
+      {
+        "name": "Aadarsha secondary school",
+        "coordinates": {
+          "lat": "28.055562429626647",
+          "lng": "81.61749776646526"
+        }
+      },
+      {
+        "name": "Butwal Public School",
+        "coordinates": {
+          "lat": "27.663735353361425",
+          "lng": "83.45696798179326"
+        }
+      },
+      {
+        "name": "Nepal Rastriya Secondary School",
+        "coordinates": {
+          "lat": "28.345396759153832",
+          "lng": "81.26924393170484"
+        }
+      },
+      {
+        "name": "Araniko English Medium Secondary School",
+        "coordinates": {
+          "lat": "28.295929953583148",
+          "lng": "81.27748267841073"
+        }
+      },
+      {
+        "name": "Bhrikuti Secondary School",
+        "coordinates": {
+          "lat": "28.30431695806837",
+          "lng": "81.24724349829727"
+        }
+      },
+      {
+        "name": "Shiva Durga Secondary School",
+        "coordinates": {
+          "lat": "28.288074789051052",
+          "lng": "81.28541592057067"
+        }
       }
     ],
     "volunteers": [
-      {
-        "name": "Deepak Thapa",
-        "contact": "deepak@lumbini.org"
-      }
+      "Subikshya Bista",
+      "Aditi Kharel",
+      "Asmita Sigdel",
+      "Nabin Dhamala",
+      "Santosh Bhandari",
+      "Binaya Basnet",
+      "Rajesh Subedi",
+      "Nirajan Shrestha",
+      "Binit KC",
+      "Kashish Bataju",
+      "Ashim Bahadur Karki",
+      "Anmol Chalise",
+      "Janam Shrestha",
+      "Mamata Maharjan",
+      "Kushal Paudel",
+      "Bishram Acharya",
+      "Krishala Prajapati"
     ],
     "stats": {
-      "districts": 4,
-      "students": 150
+      "districtNames": ["Rupandehi", "Gulmi", "Dang", "Banke", "Bardiya"],
+      "schools": 14,
+      "students": 1247
     }
   },
   "Karnali Pradesh": {
     "description": "Karnali Province is Nepal's largest province by area, characterized by remote mountainous terrain. It preserves unique cultural traditions and pristine natural environments.",
-    "provinceImage": "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+    "provinceImage": "https://locus-ioe.github.io/CIT-MAP/Karnali%20Pradesh/karnali-province.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1544735716-392fe2489ffa",
-      "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
-      "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
-      "https://images.unsplash.com/photo-1518770660439-4636190af475",
-      "https://images.unsplash.com/photo-1605640840605-14ac1855827b"
+      "https://locus-ioe.github.io/CIT-MAP/Karnali%20Pradesh/CIT/one.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Karnali%20Pradesh/CIT/two.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Karnali%20Pradesh/CIT/three.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Karnali%20Pradesh/CIT/four.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Karnali%20Pradesh/CIT/five.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Karnali%20Pradesh/CIT/six.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Karnali%20Pradesh/CIT/seven.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Karnali%20Pradesh/CIT/eight.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Karnali%20Pradesh/CIT/nine.jpg"
     ],
     "schools": [
       {
-        "name": "Jumla Community School",
-        "address": "Jumla Bazaar",
-        "phone": "087-520123"
+        "name": "Amar Jyoti Ma V Neware",
+        "coordinates": {
+          "lat": "28.593204171867658",
+          "lng": "81.63823402308947"
+        }
+      },
+      {
+        "name": "SOS Hermann Gmeiner School",
+        "coordinates": {
+          "lat": "28.618959702184778",
+          "lng": "81.60696811972774"
+        }
+      },
+      {
+        "name": "Eager Bridge Boarding School",
+        "coordinates": {
+          "lat": "28.588949055909797",
+          "lng": "81.62126967806616"
+        }
+      },
+      {
+        "name": "Surkhet Horizon Academy",
+        "coordinates": {
+          "lat": "28.589520847970167",
+          "lng": "81.61320105439626"
+        }
+      },
+      {
+        "name": "Shree Basanta Madhyamik Vidhyalaya",
+        "coordinates": {
+          "lat": "28.846543227936547",
+          "lng": "81.72353353623836"
+        }
+      },
+      {
+        "name": "Shree Red Cross Madhyamik Vidhyalaya",
+        "coordinates": {
+          "lat": "28.847079715035907",
+          "lng": "81.71377895297383"
+        }
+      },
+      {
+        "name": "Shree Ratna Chudeshwor Uchha Madhyamik Vidhyalaya",
+        "coordinates": {
+          "lat": "29.271163394253012",
+          "lng": "82.18544988292959"
+        }
+      },
+      {
+        "name": "Kanika Nisha Boarding School",
+        "coordinates": {
+          "lat": "29.274639206352923",
+          "lng": "82.18147519501994"
+        }
+      },
+      {
+        "name": "Asia International Model School",
+        "coordinates": {
+          "lat": "29.275301019437062",
+          "lng": "82.1863855103614"
+        }
       }
     ],
     "volunteers": [
-      {
-        "name": "Binod Budha",
-        "contact": "binod@karnali.org"
-      }
+      "Biraj Kumar Karanjit",
+      "Avahan Tamrakar",
+      "Ashreem Pandey",
+      "Kripesh Nihure",
+      "Divya Shangkat Karki",
+      "Agrim Paneru",
+      "Bishal Aryal",
+      "Aashish Shrestha",
+      "Khagendra Karki",
+      "Kashish Bataju",
+      "Ashim Bahadur Karki",
+      "Anmol Chalise",
+      "Janam Shrestha",
+      "Mamata Maharjan",
+      "Kushal Paudel",
+      "Bishram Acharya",
+      "Krishala Prajapati"
     ],
     "stats": {
-      "districts": 4,
-      "students": 150
+      "districtNames": ["Dailekh", "Jumla", "Surkhet"],
+      "schools": 13,
+      "students": 951
     }
   },
   "Sudurpashchim Pradesh": {
     "description": "Sudurpashchim Province, in far-western Nepal, is known for its diverse geography from Himalayas to plains. It hosts unique cultural practices and the famous Khaptad National Park.",
-    "provinceImage": "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+    "provinceImage": "https://locus-ioe.github.io/CIT-MAP/Sudurpashchim%20Pradesh/sudurpashchim-province.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1544735716-392fe2489ffa",
-      "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
-      "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
-      "https://images.unsplash.com/photo-1518770660439-4636190af475",
-      "https://images.unsplash.com/photo-1605640840605-14ac1855827b"
+      "https://locus-ioe.github.io/CIT-MAP/Sudurpashchim%20Pradesh/CIT/one.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Sudurpashchim%20Pradesh/CIT/two.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Sudurpashchim%20Pradesh/CIT/three.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Sudurpashchim%20Pradesh/CIT/four.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Sudurpashchim%20Pradesh/CIT/five.jpg"
     ],
     "schools": [
       {
-        "name": "Dhangadhi Academy",
-        "address": "Dhangadhi Sub-Metropolitan City",
-        "email": "info@dhangadhiacademy.edu.np"
+        "name": "Shree Mahendra Higher Secondary School",
+        "coordinates": {
+          "lat": "29.30212893081724",
+          "lng": "80.58740302890057"
+        }
+      },
+      {
+        "name": "Cambridge Public School ",
+        "coordinates": {
+          "lat": "29.301023893677772",
+          "lng": "80.58543223207346"
+        }
+      },
+      {
+        "name": "Durga Laxmi Model Secondary School ",
+        "coordinates": {
+          "lat": "28.818731125636525",
+          "lng": "80.55293899225762"
+        }
+      },
+      {
+        "name": "Ghodaghodi Multiple Campus",
+        "coordinates": {
+          "lat": "28.67846360508306",
+          "lng": "80.96179949096835"
+        }
+      },
+      {
+        "name": "Shree Krishna Higher Secondary School",
+        "coordinates": {
+          "lat": "28.84727881269617",
+          "lng": "80.49398005727195"
+        }
+      },
+      {
+        "name": "Mahendranagar Secondary School ",
+        "coordinates": {
+          "lat": "28.95768306480712",
+          "lng": "80.17861430964294"
+        }
       }
     ],
     "volunteers": [
-      {
-        "name": "Nirmala Dhami",
-        "contact": "981-2345678"
-      }
+      "Pranav Joshi",
+      "Pranav Joshi",
+      " Aditya Timalsina ",
+      "Aavash Bhattarai",
+      "Sarbagya Gho Shrestha ",
+      "Aviyanshu Adhikari"
     ],
     "stats": {
-      "districts": 4,
-      "students": 150
+      "districtNames": ["Kanchanpur", "Kailali", "Dadeldhura", "Bajhang"],
+      "schools": 6,
+      "students": 513
     }
   }
 }
