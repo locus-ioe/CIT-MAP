@@ -1,15 +1,22 @@
 import React, { useState } from "react";
-import { MapContainer, TileLayer, GeoJSON, Popup } from "react-leaflet";
+import { MapContainer, TileLayer, GeoJSON, Popup, Marker } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import { LatLng, GeoJSON as LeafletGeoJSON, LeafletMouseEvent } from "leaflet";
 import { useIsMobile } from "..//hooks/use-mobile";
+import { SchoolInfo } from "@/types/province";
+import L from "leaflet";
 
 interface MapProps {
   geoJsonData: GeoJSON.FeatureCollection;
   onProvinceClick: (provinceName: string) => void;
+  schools?: SchoolInfo[];
 }
 
-export const Map: React.FC<MapProps> = ({ geoJsonData, onProvinceClick }) => {
+export const Map: React.FC<MapProps> = ({
+  geoJsonData,
+  onProvinceClick,
+  schools,
+}) => {
   const isMobile = useIsMobile();
 
   const styles = {
@@ -47,6 +54,17 @@ export const Map: React.FC<MapProps> = ({ geoJsonData, onProvinceClick }) => {
     });
   };
 
+  const customIcon = new L.Icon({
+    iconUrl:
+      "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-violet.png",
+    shadowUrl:
+      "https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png",
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowSize: [41, 41],
+  });
+
   return (
     <MapContainer
       center={[28.3949, 84.124]}
@@ -57,6 +75,7 @@ export const Map: React.FC<MapProps> = ({ geoJsonData, onProvinceClick }) => {
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       />
+
       {geoJsonData && (
         <GeoJSON
           data={geoJsonData}
@@ -64,6 +83,25 @@ export const Map: React.FC<MapProps> = ({ geoJsonData, onProvinceClick }) => {
           style={styles.default}
         />
       )}
+
+      {schools &&
+        schools.map((school, index) => (
+          <Marker
+            key={index}
+            position={{
+              lat: parseFloat(school.coordinates.lat),
+              lng: parseFloat(school.coordinates.lng),
+            }}
+            icon={customIcon}
+          >
+            <Popup>
+              <div className="text-center">
+                <strong className="text-teal-500 text-sm">{school.name}</strong>
+                
+              </div>
+            </Popup>
+          </Marker>
+        ))}
     </MapContainer>
   );
 };

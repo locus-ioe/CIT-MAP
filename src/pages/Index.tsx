@@ -61,7 +61,11 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       {geoJsonData && (
-        <Map geoJsonData={geoJsonData} onProvinceClick={handleProvinceClick} />
+        <Map
+          geoJsonData={geoJsonData}
+          onProvinceClick={handleProvinceClick}
+          schools={selectedProvince ? getProvinceData()["schools"] : null}
+        />
       )}
       {selectedProvince && (
         <ProvinceSidebar
