@@ -44,7 +44,7 @@ export const ProvinceSidebar: React.FC<ProvinceSidebarProps> = ({
         "fixed transition-transform duration-300 ease-in-out z-50 bg-gray-900 shadow-lg",
         isMobile
           ? cn(
-              "bottom-0 left-0 right-0 h-[50vh] border-t border-[#2DD4BF]/20 rounded-t-xl",
+              "bottom-0 left-0 right-0 h-[60vh] border-t border-[#2DD4BF]/20 rounded-t-xl",
               mobileClasses
             )
           : cn(
@@ -59,7 +59,7 @@ export const ProvinceSidebar: React.FC<ProvinceSidebarProps> = ({
       <div
         className={cn(
           "p-4 overflow-y-auto text-gray-300",
-          isMobile ? "max-h-[calc(45vh-120px)]" : "max-h-[calc(100vh-120px)]"
+          isMobile ? "max-h-[calc(60vh-120px)]" : "max-h-[calc(100vh-120px)]"
         )}
       >
         {activeTab === "about" && (

@@ -118,11 +118,13 @@ export const Map: React.FC<MapProps> = ({
 
 const CustomZoomControl = () => {
   const map = useMap();
+  const isMobile = useIsMobile();
 
   React.useEffect(() => {
-    // Add zoom control in the top-right position
+    console.log(isMobile);
+    // Add zoom control in the top-right position for mobile and bottom right for desktop view
     const zoomControl = L.control.zoom({
-      position: "bottomright",
+      position: isMobile ? "topright" : "bottomright",
     });
 
     // Add the zoom control to the map
@@ -132,7 +134,7 @@ const CustomZoomControl = () => {
     return () => {
       map.removeControl(zoomControl);
     };
-  }, [map]);
+  }, [isMobile, map]);
 
   return null;
 };

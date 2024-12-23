@@ -39,7 +39,7 @@ export const ProvinceAbout = ({
           <p className="text-sm text-gray-400 mt-1">Schools</p>
         </div>
         <div className="bg-gray-800/50 backdrop-blur-sm p-4 rounded-lg">
-          <span className="text-3xl font-bold text-[#2DD4BF]">
+          <span className="text-3xl  font-bold text-[#2DD4BF]">
             {stats.students}+
           </span>
           <p className="text-sm text-gray-400 mt-1">Students</p>
