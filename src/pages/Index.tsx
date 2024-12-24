@@ -77,8 +77,12 @@ const Index = () => {
           onClose={handleCloseSidebar}
         />
       )}
-      <div className="absolute -top-5 right-10 z-10">
-        <img src={WIAxCIT} alt="WIAxCIT" className="w-[25vw] h-auto" />
+      <div className="absolute z-10 top-0 left-2 sm:top-5 sm:right-10 sm:left-auto">
+        <img
+          src={WIAxCIT}
+          alt="WIAxCIT"
+          className="lg:w-[25vw] w-[65vw]  h-auto"
+        />
       </div>
     </div>
   );
