@@ -7,6 +7,8 @@ import { FeatureCollection, Geometry, GeoJsonProperties } from "geojson";
 import axios from "axios";
 import { ProvinceData } from "@/types/province";
 
+import WIAxCIT from "/WIAxCIT.svg";
+
 const provinces = [
   "Koshi Pradesh",
   "Madhesh Pradesh",
@@ -75,8 +77,8 @@ const Index = () => {
           onClose={handleCloseSidebar}
         />
       )}
-      <div className="absolute top-10 right-10 text-[#00a3a3] font-black text-5xl p-2 bg-opacity-75 z-10">
-        Children In Technology
+      <div className="absolute -top-5 right-10 z-10">
+        <img src={WIAxCIT} alt="WIAxCIT" className="w-[25vw] h-auto" />
       </div>
     </div>
   );
