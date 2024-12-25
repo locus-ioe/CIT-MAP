@@ -27,19 +27,19 @@ export const ProvinceAbout = ({
       <h3 className="text-2xl font-semibold mb-4 text-[#2DD4BF]">Coverage</h3>
       <div className="grid grid-cols-3 gap-4">
         <div className="bg-gray-800/50 backdrop-blur-sm p-4 rounded-lg">
-          <span className="text-3xl font-bold text-[#2DD4BF]">
+          <span className="max-sm:text-xl text-3xl font-bold text-[#2DD4BF]">
             {stats.districtNames?.length | 0}
           </span>
           <p className="text-sm text-gray-400 mt-1">Districts</p>
         </div>
         <div className="bg-gray-800/50 backdrop-blur-sm p-4 rounded-lg">
-          <span className="text-3xl font-bold text-[#2DD4BF]">
+          <span className="max-sm:text-xl text-3xl font-bold text-[#2DD4BF]">
             {stats.schools}
           </span>
           <p className="text-sm text-gray-400 mt-1">Schools</p>
         </div>
         <div className="bg-gray-800/50 backdrop-blur-sm p-4 rounded-lg">
-          <span className="text-3xl  font-bold text-[#2DD4BF]">
+          <span className="max-sm:text-xl text-3xl  font-bold text-[#2DD4BF]">
             {stats.students}+
           </span>
           <p className="text-sm text-gray-400 mt-1">Students</p>
@@ -69,18 +69,17 @@ export const ProvinceAbout = ({
 
     {volunteers && (
       <div className="space-y-4">
-      <h3 className="text-2xl font-semibold text-[#2DD4BF] tracking-tight">Our Volunteers</h3>
-      <ul className="list-disc pl-5 space-y-2 ml-3">
-        {volunteers.map((volunteer, index) => (
-          <li 
-            key={index} 
-            className="text-gray-300 marker:text-[#2DD4BF]"
-          >
-            {volunteer}
-          </li>
-        ))}
-      </ul>
-    </div>
+        <h3 className="text-2xl font-semibold text-[#2DD4BF] tracking-tight">
+          Our Volunteers
+        </h3>
+        <ul className="list-disc pl-5 space-y-2 ml-3">
+          {volunteers.map((volunteer, index) => (
+            <li key={index} className="text-gray-300 marker:text-[#2DD4BF]">
+              {volunteer}
+            </li>
+          ))}
+        </ul>
+      </div>
     )}
   </div>
 );
