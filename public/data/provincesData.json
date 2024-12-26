@@ -286,7 +286,26 @@
       "https://locus-ioe.github.io/CIT-MAP/Bagmati%20Pradesh/CIT/fifteen.jpg",
       "https://locus-ioe.github.io/CIT-MAP/Bagmati%20Pradesh/CIT/sixteen.jpg",
       "https://locus-ioe.github.io/CIT-MAP/Bagmati%20Pradesh/CIT/seventeen.jpg",
-      "https://locus-ioe.github.io/CIT-MAP/Bagmati%20Pradesh/CIT/eighteen.jpg"
+      "https://locus-ioe.github.io/CIT-MAP/Bagmati%20Pradesh/CIT/eighteen.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Bagmati%20Pradesh/CIT/ktm_one.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Bagmati%20Pradesh/CIT/ktm_two.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Bagmati%20Pradesh/CIT/ktm_three.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Bagmati%20Pradesh/CIT/ktm_four.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Bagmati%20Pradesh/CIT/ktm_five.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Bagmati%20Pradesh/CIT/ktm-six.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Bagmati%20Pradesh/CIT/ktm_seven.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Bagmati%20Pradesh/CIT/ktm_eight.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Bagmati%20Pradesh/CIT/ktm_nine.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Bagmati%20Pradesh/CIT/ktm_twelven.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Bagmati%20Pradesh/CIT/ktm_thirteen.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Bagmati%20Pradesh/CIT/ktm_fourteen.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Bagmati%20Pradesh/CIT/ktm_fifteen.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Bagmati%20Pradesh/CIT/ktm_sixteen.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Bagmati%20Pradesh/CIT/ktm_twenty-two.jpeg",
+      "https://locus-ioe.github.io/CIT-MAP/Bagmati%20Pradesh/CIT/ktm_twenty-three.jpeg",
+      "https://locus-ioe.github.io/CIT-MAP/Bagmati%20Pradesh/CIT/ktm_twenty-four.jpeg",
+      "https://locus-ioe.github.io/CIT-MAP/Bagmati%20Pradesh/CIT/ktm_twenty-five.jpg",
+      "https://locus-ioe.github.io/CIT-MAP/Bagmati%20Pradesh/CIT/ktm_twenty-six.jpg"
     ],
     "schools": [
       {
@@ -386,33 +405,230 @@
           "lat": "27.912059513975926",
           "lng": "84.88909417343609"
         }
+      },
+      {
+        "name": "Shree Saraswati S.S",
+        "coordinates": {
+          "lat": "27.931729688777395",
+          "lng": "84.9835811803367"
+        }
+      },
+      {
+        "name": "Mansingh Dharma Higher Secondary School",
+        "coordinates": {
+          "lat": "27.74549291200453",
+          "lng": "85.31141011631131"
+        }
+      },
+      {
+        "name": "National Orchid Boarding School",
+        "coordinates": {
+          "lat": "27.715116061685872",
+          "lng": "85.34372698165603"
+        }
+      },
+      {
+        "name": "Pashupati Mitra Secondary School",
+        "coordinates": {
+          "lat": "27.716518256452936",
+          "lng": "85.34609848351195"
+        }
+      },
+      {
+        "name": "Mount Hermoun",
+        "coordinates": {
+          "lat": "27.67480900360913",
+          "lng": "85.33054019416997"
+        }
+      },
+      {
+        "name": "Samata Shiksha Niketan School",
+        "coordinates": {
+          "lat": "27.71736017222393",
+          "lng": "85.36152777047673"
+        }
+      },
+      {
+        "name": "Prerana English Boarding Higher School",
+        "coordinates": {
+          "lat": "27.715464438456625",
+          "lng": "85.3548717891952"
+        }
+      },
+      {
+        "name": "pravat secondary school",
+        "coordinates": {
+          "lat": "27.689097211586358",
+          "lng": "85.2258943572861"
+        }
+      },
+      {
+        "name": "amar jyoti secondary school",
+        "coordinates": {
+          "lat": "27.702376082362605",
+          "lng": "85.27202580480663"
+        }
+      },
+      {
+        "name": "Bhassara sec school",
+        "coordinates": {
+          "lat": "27.67321861943614",
+          "lng": "85.32043086831176"
+        }
+      },
+      {
+        "name": "Nepal Aadarsha sec school",
+        "coordinates": {
+          "lat": "27.70102357290736",
+          "lng": "85.30956943753529"
+        }
+      },
+      {
+        "name": "Hilary English School",
+        "coordinates": {
+          "lat": "27.714553298942036",
+          "lng": "85.34938292541582"
+        }
+      },
+      {
+        "name": "St. Lawrance School",
+        "coordinates": {
+          "lat": "27.714832135381663",
+          "lng": "85.34734098060365"
+        }
+      },
+      {
+        "name": "Kavya School",
+        "coordinates": {
+          "lat": "27.68632462592983",
+          "lng": "85.32962923040651"
+        }
+      },
+      {
+        "name": "Swopna Batika School",
+        "coordinates": {
+          "lat": "27.68394984977541",
+          "lng": "85.32906824108204"
+        }
+      },
+      {
+        "name": "Shree Shiddi mangal School (lalitpur)",
+        "coordinates": {
+          "lat": "27.64947323176105",
+          "lng": "85.35352382882338"
+        }
+      },
+      {
+        "name": "Madan Smarak Ma School (Pulchowk Lalitpur)",
+        "coordinates": {
+          "lat": "27.676279979721183",
+          "lng": "85.31846839123963"
+        }
+      },
+      {
+        "name": "Nava Jyoti Madhyamik school (Pokharitar)",
+        "coordinates": {
+          "lat": "27.608091363818037",
+          "lng": "85.33630191448265"
+        }
+      },
+      {
+        "name": "Dhading Boarding S.S",
+        "coordinates": {
+          "lat": "27.912059513975926",
+          "lng": "84.88909417343609"
+        },
+        "location": "Outside Valley"
       }
     ],
     "volunteers": [
-      "Saurav Kumar Mahato(Kathamandhu Valley)",
+      "Pratik Shrestha",
+      "Pratik Tharu",
+      "Rounak Jha",
+      "Prayag Raj Acharya",
+      "Rohan Maharjan",
+      "Roshni Poudel",
+      "Utsav Manandhar",
+      "Sanju KC",
+      "Supreme Khadka",
+      "Anusandhan Nepal",
+      "Ram Mishra",
+      "Aayusha Thapa",
+      "Anil Basnet",
+      "Swikar Gautam",
+      "Samip Neupane",
+      "Biraj Kumar Karanjit",
+      "Avahan Tamrakar",
+      "Ashreem Pandey",
+      "Kripesh Nihure",
+      "Agrim Paneru",
+      "Bishal Aryal",
+      "Ishwor Basyal",
+      "Kalpesh Manandhar",
+      "Madhav Parajuli",
+      "Anil Paudel",
+      "Binit K.C.",
+      "Kashish Bataju",
+      "Krishala Prajapati",
+      "Aayusha Odari",
+      "Bibek Niroula",
+      "Aayush Puri",
+      "Aavash Chhetri",
+      "Biraj Acharya",
+      "Bishram Acharya",
+      "Janam Shrestha",
+      "Mamata Maharjan",
+      "Kushal Paudel",
+      "Himanshu Pradhan",
+      "Saurav Kumar Mahato",
       "Susheel Thapa",
       "Rajendra Khanal",
       "Raj Kumar Paneru",
       "Vishal Pokharel",
-      "Kashish Bataju",
-      "Ashim Bahadur Karki",
-      "Anmol Chalise",
-      "Janam Shrestha",
-      "Mamata Maharjan",
-      "Kushal Paudel",
-      "Bishram Acharya",
-      "Krishala Prajapati",
+      "Prasun Sitaula",
+      "Prajjwal Pandey",
+      "Sandesh Pyakurel",
+      "Shashi Adhikari",
+      "Sandip Rokaya",
+      "Bibek Dhakal",
+      "Anjan Roka",
+      "Sagar Nayak",
+      "Purushottam Thakur",
+      "Saurab Maharjan",
+      "Apekshya Shakya",
+      "Aayush Jha",
+      "Raju Gupta",
+      "Niraj Chaurasiya",
       "Aarjan Budathoki",
+      "Rythm Panta",
       "Aayush Luitel",
       "Manish Guruwacharya",
-      "Pasang Sherpa",
-      "Rythm Panta",
-      "Sabin Shrestha"
+      "Sabin Shrestha",
+      "Bipin Devkota",
+      "Kshitij Thapa",
+      "Avishek Aryal",
+      "Avishek Khadka",
+      "Nirmal Kunwar",
+      "Pranav Joshi",
+      "Aavash Bhattarai",
+      "Aditya Timalsina",
+      "Aviyanshu Adhikari",
+      "Sarbagya Gho Shrestha",
+      "Ashutosh Bohara"
     ],
     "stats": {
-      "schools": 12,
-      "students": 994,
-      "districtNames": ["Chitwan", "Makwanpur", "Dhading", "Nuwakot", "Rasuwa"]
+      "schools": 31,
+      "students": 2304,
+      "districtNames": [
+        "Chitwan",
+        "Makwanpur",
+        "Dhading",
+        "Nuwakot",
+        "Rasuwa",
+        "Kathmandu",
+        "Lalitpur",
+        "Bhaktapur"
+      ]
     }
   },
   "Gandaki Pradesh": {
@@ -551,13 +767,6 @@
         "coordinates": {
           "lat": "28.218559564540417",
           "lng": "83.68043981227312"
-        }
-      },
-      {
-        "name": "Shree Saraswati S.S",
-        "coordinates": {
-          "lat": "27.931729688777395",
-          "lng": "84.9835811803367"
         }
       }
     ],
