@@ -1,13 +1,13 @@
-import { useEffect, useState } from "react";
-import { ProvinceCard } from "../components/ProvinceCard";
-import { ProvinceSidebar } from "../components/ProvinceSidebar";
-import { Map } from "../components/Map";
+import React, { useState, useEffect, Suspense } from "react";
 import { FeatureCollection, Geometry, GeoJsonProperties } from "geojson";
-
 import axios from "axios";
-import { ProvinceData } from "@/types/province";
 
-import WIAxCIT from "/WIAxCIT.svg";
+const ProvinceSidebar = React.lazy(() =>
+  import("../components/ProvinceSidebar").then(module=> ({default: module.ProvinceSidebar}))
+);
+const Map = React.lazy(() => import("../components/Map").then(module => ({ default: module.Map })));
+
+const WIAxCIT = "/WIAxCIT.svg";
 
 const provinces = [
   "Koshi Pradesh",
@@ -21,7 +21,7 @@ const provinces = [
 
 const Index = () => {
   const [selectedProvince, setSelectedProvince] = useState<string | null>(null);
-  const [provinceData, setProvinceData] = useState<{}>(null);
+  const [provinceData, setProvinceData] = useState<any>(null);
   const [geoJsonData, setGeoJsonData] = useState<FeatureCollection<
     Geometry,
     GeoJsonProperties
@@ -44,7 +44,7 @@ const Index = () => {
         setProvinceData(response.data);
       })
       .catch((error: any) =>
-        console.error("Error loading the province data data:", error)
+        console.error("Error loading the province data:", error)
       );
   }, []);
 
@@ -62,21 +62,25 @@ const Index = () => {
 
   return (
     <div className="min-h-screen">
-      {geoJsonData && (
-        <Map
-          geoJsonData={geoJsonData}
-          onProvinceClick={handleProvinceClick}
-          schools={selectedProvince ? getProvinceData()["schools"] : null}
-        />
-      )}
-      {selectedProvince && (
-        <ProvinceSidebar
-          province={selectedProvince || ""}
-          provinceData={getProvinceData()}
-          isOpen={!!selectedProvince}
-          onClose={handleCloseSidebar}
-        />
-      )}
+      <Suspense fallback={<div>Loading map...</div>}>
+        {geoJsonData && (
+          <Map
+            geoJsonData={geoJsonData}
+            onProvinceClick={handleProvinceClick}
+            schools={selectedProvince ? getProvinceData()["schools"] : null}
+          />
+        )}
+      </Suspense>
+      <Suspense fallback={<div>Loading sidebar...</div>}>
+        {selectedProvince && (
+          <ProvinceSidebar
+            province={selectedProvince || ""}
+            provinceData={getProvinceData()}
+            isOpen={!!selectedProvince}
+            onClose={handleCloseSidebar}
+          />
+        )}
+      </Suspense>
       <div className="absolute z-10 top-0 left-2 sm:top-5 sm:right-10 sm:left-auto">
         <img
           src={WIAxCIT}
