@@ -7,71 +7,28 @@ import { ProvinceAbout } from "./province/ProvinceAbout";
 import { ProvinceSchools } from "./province/ProvinceSchools";
 import { ProvincePhotos } from "./province/ProvincePhotos";
 import { useIsMobile } from "../hooks/use-mobile";
-
-interface SchoolInfo {
-  name: string;
-  address?: string;
-  phone?: string;
-  email?: string;
-}
-
-interface VolunteerInfo {
-  name: string;
-  contact?: string;
-}
-
-interface ProvinceData {
-  description: string;
-  provinceImage: string;
-  images: string[];
-  schools: SchoolInfo[];
-  volunteers: VolunteerInfo[];
-  stats: { districts: number; students: number };
-}
+import { ProvinceData } from "@/types/province";
 
 interface ProvinceSidebarProps {
   province: string;
+  provinceData: ProvinceData;
   isOpen: boolean;
   onClose: () => void;
 }
 
 export const ProvinceSidebar: React.FC<ProvinceSidebarProps> = ({
   province,
+  provinceData,
   isOpen,
   onClose,
 }) => {
-  const [provinceData, setProvinceData] = useState<ProvinceData | null>(null);
   const [activeTab, setActiveTab] = useState<"about" | "schools" | "photos">(
     "about"
   );
   const isMobile = useIsMobile();
 
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await axios.get<Record<string, ProvinceData>>(
-          `/data/provincesData.json`
-        );
-        console.log(response.data)
-        setProvinceData(
-          response.data[province] || {
-            description: "Information not available",
-            provinceImage: "",
-            images: [
-              "https://images.unsplash.com/photo-1544735716-392fe2489ffa",
-            ],
-            schools: [],
-            volunteers: [],
-            stats: { districts: 0, students: 0 },
-          }
-        );
-      } catch (error) {
-        console.error("Failed to fetch province data:", error);
-        setProvinceData(null);
-      }
-    };
-
-    fetchData();
+    setActiveTab("about");
   }, [province]);
 
   const mobileClasses = isOpen ? "translate-y-0" : "translate-y-full";
@@ -87,11 +44,11 @@ export const ProvinceSidebar: React.FC<ProvinceSidebarProps> = ({
         "fixed transition-transform duration-300 ease-in-out z-50 bg-gray-900 shadow-lg",
         isMobile
           ? cn(
-              "bottom-0 left-0 right-0 h-[50vh] border-t border-[#2DD4BF]/20 rounded-t-xl",
+              "bottom-0 left-0 right-0 h-[60vh] border-t border-[#2DD4BF]/20 rounded-t-xl",
               mobileClasses
             )
           : cn(
-              "top-0 left-0 h-full w-[450px] border-r border-[#2DD4BF]/20",
+              "top-0 left-0 h-full w-[500px] border-r border-[#2DD4BF]/20",
               desktopClasses
             )
       )}
@@ -102,12 +59,12 @@ export const ProvinceSidebar: React.FC<ProvinceSidebarProps> = ({
       <div
         className={cn(
           "p-4 overflow-y-auto text-gray-300",
-          isMobile ? "max-h-[calc(45vh-120px)]" : "max-h-[calc(100vh-120px)]"
+          isMobile ? "max-h-[calc(60vh-120px)]" : "max-h-[calc(100vh-120px)]"
         )}
       >
         {activeTab === "about" && (
           <ProvinceAbout
-            image={provinceData.provinceImage}
+            provinceImage={provinceData.provinceImage}
             province={province}
             description={provinceData.description}
             volunteers={provinceData.volunteers}

@@ -20,8 +20,8 @@ export const ProvincePhotos = ({
   };
 
   return (
-    <div className="space-y-4">
-      <h3 className="text-xl font-medium text-[#2DD4BF]">
+    <div className="space-y-4 mb-8">
+      <h3 className="text-2xl font-semibold text-[#2DD4BF]">
         Photos of {province}
       </h3>
       <div className="grid grid-cols-2 gap-3">

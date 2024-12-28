@@ -7,7 +7,7 @@ interface ProvinceHeaderProps {
 
 export const ProvinceHeader = ({ province, onClose }: ProvinceHeaderProps) => (
   <div className="flex items-center justify-between p-4 bg-[#00D1B2] text-white">
-    <h2 className="text-2xl font-semibold">{province}</h2>
+    <h2 className="text-3xl font-semibold">{province}</h2>
     <button
       onClick={onClose}
       className="p-1 hover:bg-white/10 rounded-full transition-colors"
