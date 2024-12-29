@@ -1,0 +1,87 @@
+{
+    "Koshi Pradesh": {
+      "description": "Koshi Province, located in eastern Nepal, is known for its diverse geography ranging from the Himalayas to the Terai plains. Home to Mount Makalu and various ethnic communities, it's a hub of cultural diversity and natural beauty.",
+      "provinceImage": "https://locus-ioe.github.io/CIT-MAP/Koshi%20Pradesh/koshi-province.jpg",
+      "images": [],
+      "schools": [],
+      "volunteers": [],
+      "stats": {
+        "districtNames": [],
+        "schools": 0,
+        "students": 0
+      }
+    },
+    "Madhesh Pradesh": {
+      "description": "Madhesh Province spans the southern plains of Nepal, featuring rich agricultural land and cultural heritage. It plays a crucial role in Nepal's agriculture and trade with India.",
+      "provinceImage": "https://locus-ioe.github.io/CIT-MAP/Madhesh%20Pradesh/madhesh-province.jpg",
+      "images": [],
+      "schools": [],
+      "volunteers": [],
+      "stats": {
+        "districtNames": [],
+        "schools": 0,
+        "students": 0
+      }
+    },
+    "Bagmati Pradesh": {
+      "description": "Bagmati Province, home to Nepal's capital Kathmandu, is the political and cultural heart of Nepal. It includes major historical sites, including seven UNESCO World Heritage sites.",
+      "provinceImage": "https://locus-ioe.github.io/CIT-MAP/Bagmati%20Pradesh/bagmati-province.jpeg",
+      "images": [],
+      "schools": [],
+      "volunteers": [],
+      "stats": {
+        "districtNames": [],
+        "schools": 0,
+        "students": 0
+      }
+    },
+    "Gandaki Pradesh": {
+      "description": "Gandaki Province is renowned for its natural beauty, including the Annapurna mountain range and Pokhara Valley. It's a major tourist destination known for trekking and adventure sports.",
+      "provinceImage": "https://locus-ioe.github.io/CIT-MAP/Gandaki%20Pradesh/gandaki-province.jpg",
+      "images": [],
+      "schools": [],
+      "volunteers": [],
+      "stats": {
+        "districtNames": [],
+        "schools": 0,
+        "students": 0
+      }
+    },
+    "Lumbini Pradesh": {
+      "description": "Lumbini Province, birthplace of Lord Buddha, is a significant pilgrimage site. The province combines religious importance with agricultural productivity.",
+      "provinceImage": "https://locus-ioe.github.io/CIT-MAP/Lumbini%20Pradesh/lumbini-province.jpg",
+      "images": [],
+      "schools": [],
+      "volunteers": [],
+      "stats": {
+        "districtNames": [],
+        "schools": 0,
+        "students": 0
+      }
+    },
+    "Karnali Pradesh": {
+      "description": "Karnali Province is Nepal's largest province by area, characterized by remote mountainous terrain. It preserves unique cultural traditions and pristine natural environments.",
+      "provinceImage": "https://locus-ioe.github.io/CIT-MAP/Karnali%20Pradesh/karnali-province.jpg",
+      "images": [],
+      "schools": [],
+      "volunteers": [],
+      "stats": {
+        "districtNames": [],
+        "schools": 0,
+        "students": 0
+      }
+    },
+    "Sudurpashchim Pradesh": {
+      "description": "Sudurpashchim Province, in far-western Nepal, is known for its diverse geography from Himalayas to plains. It hosts unique cultural practices and the famous Khaptad National Park.",
+      "provinceImage": "https://locus-ioe.github.io/CIT-MAP/Sudurpashchim%20Pradesh/sudurpashchim-province.jpg",
+      "images": [],
+      "schools": [],
+      "volunteers": [],
+      "stats": {
+        "districtNames": [],
+        "schools": 0,
+        "students": 0
+      }
+    }
+  }
+  

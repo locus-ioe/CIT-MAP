@@ -8,6 +8,7 @@ import axios from "axios";
 import { ProvinceData } from "@/types/province";
 
 import WIAxCIT from "/WIAxCIT.svg";
+import { useParams } from "react-router-dom";
 
 const provinces = [
   "Koshi Pradesh",
@@ -20,6 +21,10 @@ const provinces = [
 ];
 
 const Index = () => {
+  const { year } = useParams();
+
+  console.log(year);
+
   const [selectedProvince, setSelectedProvince] = useState<string | null>(null);
   const [provinceData, setProvinceData] = useState<{}>(null);
   const [geoJsonData, setGeoJsonData] = useState<FeatureCollection<
@@ -28,7 +33,6 @@ const Index = () => {
   > | null>(null);
 
   useEffect(() => {
-    // Load GeoJSON data
     axios
       .get("maps/nepal-with-provinces.geojson")
       .then((response: any) => {
@@ -38,15 +42,26 @@ const Index = () => {
         console.error("Error loading the GeoJSON data:", error)
       );
 
-    axios
-      .get("/data/provincesData.json")
-      .then((response: any) => {
-        setProvinceData(response.data);
-      })
-      .catch((error: any) =>
-        console.error("Error loading the province data data:", error)
-      );
+
   }, []);
+
+  /**
+   * Fetching the details of the particular year CIT
+   */
+  useEffect(() => {
+    const fetchDetails = async () => {
+      axios
+        .get(`/data/${year}.json`)
+        .then((response: any) => {
+          setProvinceData(response.data);
+        })
+        .catch((error: any) =>
+          console.error("Error loading the province data data:", error)
+        );
+    };
+
+    fetchDetails();
+  }, [year]);
 
   const handleProvinceClick = (province: string) => {
     setSelectedProvince(province);

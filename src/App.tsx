@@ -1,6 +1,5 @@
-import Index from "./pages/Index";
+import AppRoutes from "./routes/routes";
 
-
-const App = () => <Index />;
+const App = () => <AppRoutes />;
 
 export default App;
