@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useModal } from "../../hooks/use-modal";
 import ProvinceImageModal from "./ProvinceImageModal";
 
@@ -13,6 +13,15 @@ export const ProvincePhotos = ({
 }: ProvincePhotosProps) => {
   const { open, openModal, closeModal } = useModal();
   const [modalImageUrl, setModalImageUrl] = useState("");
+  const [showSkeleton, setShowSkeleton] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowSkeleton(false); 
+    }, 3000);
+
+    return () => clearTimeout(timer); 
+  }, []);
 
   const handleImageClick = (imageUrl: string) => {
     setModalImageUrl(imageUrl);
@@ -28,14 +37,18 @@ export const ProvincePhotos = ({
         {provinceImages.map((photo, index) => (
           <div
             key={index}
-            className="aspect-square bg-[#2DD4BF]/5 overflow-hidden rounded-lg cursor-pointer"
+            className="aspect-square bg-[#2DD4BF]/5 overflow-hidden rounded-lg cursor-pointer relative"
             onClick={() => handleImageClick(photo)}
           >
-            <img
-              src={photo}
-              alt={`${province} photo ${index + 1}`}
-              className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
-            />
+            {showSkeleton ? (
+              <div className="absolute inset-0 bg-gray-200 animate-pulse"></div>
+            ) : (
+              <img
+                src={photo}
+                alt={`${province} photo ${index + 1}`}
+                className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
+              />
+            )}
           </div>
         ))}
       </div>
