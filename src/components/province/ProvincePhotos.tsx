@@ -18,7 +18,7 @@ export const ProvincePhotos = ({
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowSkeleton(false); 
-    }, 3000);
+    }, 8000);
 
     return () => clearTimeout(timer); 
   }, []);
