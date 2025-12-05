@@ -112,6 +112,8 @@
       "Dinesh Sirmal",
       "Gita Neupane",
       "Nandani Sah",
+      "Ridhima Bhatt",
+      "Samridhi Karki",
       "Shiva Agrahari",
       "Pramod Laha",
       "Aaditya Sah"
@@ -119,7 +121,7 @@
     "stats": {
       "schools": 12,
       "students": 1367,
-      "districtNames": ["Sunsari", "Dhankuta", "Tehrathum", "Udaypur"]
+      "districtNames": ["Sunsari", "Taplejung", "Tehrathum", "Udaypur"]
     }
   },
   "Madhesh Pradesh": {
@@ -239,7 +241,13 @@
       "Yujal Shrestha",
       "Saphal Rimal",
       "Sandip Katel",
-      "Sharad Pokharel"
+      "Sharad Pokharel",
+      "Sijan Khadka",
+      "Divyanshu Mishra",
+      "Manish Rauniyar",
+      "Deepak Yadav",
+      "Kartik Sah",
+      "Chandan Chaurasiya"
     ],
     "stats": {
       "schools": 13,
@@ -368,17 +376,22 @@
       }
     ],
     "volunteers": [
-      "Abhishek Gautam",
+      "Aashutosh Pandey",
+      "Abhay Gupta",
+      "Ankush Jha",
+      "Aaditya Kumar Jha",
+      "Aaditya Krishna",
       "Aditi Subedi",
-      "Ankeet Gadtaula",
       "Arpana Neupane",
+      "Elina Kattel",
       "Bhuwan Sharma",
-      "Elina Kattel"
+      "Ankeet Gadtaula",
+      "Abhishek Gautam"
     ],
     "stats": {
       "schools": 11,
       "students": 1116,
-      "districtNames": ["Ramechhap", "Dolakha"]
+      "districtNames": ["Kaavre", "Sindhupalchowk", "Ramechhap", "Dolakha"]
     }
   },
   "Gandaki Pradesh": {
@@ -553,16 +566,18 @@
       "Utsav Raj Karki",
       "Susan Kumar Rana",
       "Sunil Kumar Rana",
-      "Nirakar Nepal",
       "Raagini Upadhyay",
       "Anup Aryal",
       "Ashish karki",
       "Apil Chaudary",
       "Janak Sapkota",
       "Kshitiz Paudel",
+      "Nirakar Nepal",
       "Kshitiz Parajuli",
       "Sandesh Adhikari",
       "Sangam Ranabhat",
+      "Udghosh Bhandari",
+      "Samvid Neupane",
       "Pravin Acharya"
     ],
     "stats": {
@@ -574,7 +589,9 @@
         "Dumre",
         "Baglung",
         "Parbat",
-        "Myagdi"
+        "Myagdi",
+        "Kaski",
+        "Lamjung"
       ]
     }
   },
@@ -837,16 +854,21 @@
       }
     ],
     "volunteers": [
+      "Ashim Sapkota",
+      "Andis Paudel",
+      "Batsal Bhusal",
+      "Birat Thapa",
+      "Yubraj Sharma",
       "Prabesh Bashyal",
       "Prafulla Raj Pokhrel",
       "Pratik Adhikari",
       "Rishikesh Paudel",
       "Sadhana Panthi",
-      "Saroj Poudel",
-      "Shreya Shrestha"
+      "Shreya Shrestha",
+      "Samikshya Bhusal"
     ],
     "stats": {
-      "districtNames": ["Dailekh", "Jumla", "Surkhet"],
+      "districtNames": ["Jumla", "Surkhet", "Jajarkot", "Dolpa"],
       "schools": 11,
       "students": 732
     }
@@ -909,10 +931,14 @@
       "Subash Kandel",
       "Sandesh Kuikel",
       "Shreya Uprety",
-      "Ashish Pandey"
+      "Ashish Pandey",
+      "Nabin Ranabhat",
+      "Sudip Basnet",
+      "Saroj Poudel",
+      "Spandan Bhandari"
     ],
     "stats": {
-      "districtNames": ["Kanchanpur", "Kailali"],
+      "districtNames": ["Kanchanpur", "Kailali", "Doti"],
       "schools": 6,
       "students": 405
     }
