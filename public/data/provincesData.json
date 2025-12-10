@@ -1244,8 +1244,6 @@
         "Nandani Sah",
         "Ridhima Bhatt",
         "Samridhi Karki",
-        "Shiva Agrahari",
-        "Pramod Laha",
         "Aaditya Sah"
       ],
       "stats": {
@@ -1702,13 +1700,11 @@
         "Apil Chaudary",
         "Janak Sapkota",
         "Kshitiz Paudel",
-        "Nirakar Nepal",
         "Kshitiz Parajuli",
-        "Sandesh Adhikari",
-        "Sangam Ranabhat",
-        "Udghosh Bhandari",
-        "Samvid Neupane",
-        "Pravin Acharya"
+        "Sangam ranabhat",
+        "Sandesh adhikari",
+        "Udghosh bhandari",
+        "Samvid neupane"
       ],
       "stats": {
         "schools": 20,
@@ -1873,16 +1869,19 @@
         }
       ],
       "volunteers": [
-        "Nishanta Subedi",
-        "Sandip Aacharya",
-        "Sanim Pandey",
-        "Shanti ram Niraula",
+        "Bishal Lamichhane",
+        "Jeevan Neupane",
+        "Bipin Bashyal",
+        "Anil Shrestha",
         "Sudip Adhikari",
-        "Kushal Khadka",
+        "Shasank Adhikari",
         "Nishan Mainali",
-        "Prajwal Pudasainee",
+        "Kushal Khadka",
         "Rochak Niraula",
-        "Shasank Adhikari"
+        "Nissan Subedi",
+        "Sandip Acharya",
+        "Sanim Pandey",
+        "Shanti Ram Niraula"
       ],
       "stats": {
         "districtNames": ["Nawalparsai", "Rupandehi", "Palpa"],
@@ -1989,13 +1988,11 @@
         "Batsal Bhusal",
         "Birat Thapa",
         "Yubraj Sharma",
-        "Prabesh Bashyal",
-        "Prafulla Raj Pokhrel",
-        "Pratik Adhikari",
-        "Rishikesh Paudel",
         "Sadhana Panthi",
+        "Rishikesh Paudel",
         "Shreya Shrestha",
-        "Samikshya Bhusal"
+        "Samikshya Bhusal",
+        "Pratik Adhikari"
       ],
       "stats": {
         "districtNames": ["Jumla", "Surkhet", "Jajarkot", "Dolpa"],
@@ -2059,13 +2056,14 @@
       ],
       "volunteers": [
         "Subash Kandel",
-        "Sandesh Kuikel",
         "Shreya Uprety",
-        "Ashish Pandey",
         "Nabin Ranabhat",
         "Sudip Basnet",
+        "Sandesh Kuikel",
+        "Ashish Pandey",
         "Saroj Poudel",
-        "Spandan Bhandari"
+        "Spandan Bhandari",
+        "Prabesh Bashyal"
       ],
       "stats": {
         "districtNames": ["Kanchanpur", "Kailali", "Doti"],
