@@ -14,6 +14,9 @@ interface ProvinceSidebarProps {
   provinceData: ProvinceData;
   isOpen: boolean;
   onClose: () => void;
+  selectedYear: string;
+  availableYears: string[];
+  onYearChange: (year: string) => void;
 }
 
 export const ProvinceSidebar: React.FC<ProvinceSidebarProps> = ({
@@ -21,6 +24,9 @@ export const ProvinceSidebar: React.FC<ProvinceSidebarProps> = ({
   provinceData,
   isOpen,
   onClose,
+  selectedYear,
+  availableYears,
+  onYearChange,
 }) => {
   const [activeTab, setActiveTab] = useState<"about" | "schools" | "photos">(
     "about"
@@ -54,12 +60,37 @@ export const ProvinceSidebar: React.FC<ProvinceSidebarProps> = ({
       )}
     >
       <ProvinceHeader province={province} onClose={onClose} />
+
+      {/* Year Selector */}
+      {availableYears.length > 0 && (
+        <div className="px-4 py-2 border-b border-[#2DD4BF]/20">
+          <div className="flex items-center gap-3">
+            <span className="text-teal-400 text-sm font-medium">Year:</span>
+            <div className="flex gap-1.5">
+              {availableYears.map((year) => (
+                <button
+                  key={year}
+                  onClick={() => onYearChange(year)}
+                  className={`px-3.5 py-1 rounded-full text-sm font-semibold transition-all duration-200 ${
+                    selectedYear === year
+                      ? "bg-teal-500 text-gray-900 shadow-md shadow-teal-500/30"
+                      : "bg-gray-800 text-gray-300 hover:bg-gray-700 hover:text-teal-400"
+                  }`}
+                >
+                  {year}
+                </button>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
+
       <ProvinceTabs activeTab={activeTab} setActiveTab={setActiveTab} />
 
       <div
         className={cn(
           "p-4 overflow-y-auto text-gray-300",
-          isMobile ? "max-h-[calc(60vh-120px)]" : "max-h-[calc(100vh-120px)]"
+          isMobile ? "max-h-[calc(60vh-165px)]" : "max-h-[calc(100vh-165px)]"
         )}
       >
         {activeTab === "about" && (

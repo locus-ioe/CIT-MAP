@@ -3,9 +3,13 @@ import { FeatureCollection, Geometry, GeoJsonProperties } from "geojson";
 import axios from "axios";
 
 const ProvinceSidebar = React.lazy(() =>
-  import("../components/ProvinceSidebar").then(module=> ({default: module.ProvinceSidebar}))
+  import("../components/ProvinceSidebar").then((module) => ({
+    default: module.ProvinceSidebar,
+  }))
 );
-const Map = React.lazy(() => import("../components/Map").then(module => ({ default: module.Map })));
+const Map = React.lazy(() =>
+  import("../components/Map").then((module) => ({ default: module.Map }))
+);
 
 const WIAxCIT = "/WIAxCIT.svg";
 
@@ -26,6 +30,8 @@ const Index = () => {
     Geometry,
     GeoJsonProperties
   > | null>(null);
+  const [selectedYear, setSelectedYear] = useState<string>("2025");
+  const [availableYears, setAvailableYears] = useState<string[]>([]);
 
   useEffect(() => {
     // Load GeoJSON data
@@ -42,6 +48,14 @@ const Index = () => {
       .get("/data/provincesData.json")
       .then((response: any) => {
         setProvinceData(response.data);
+        // Extract available years from the data
+        const years = Object.keys(response.data).sort(
+          (a, b) => Number(b) - Number(a)
+        );
+        setAvailableYears(years);
+        if (years.length > 0) {
+          setSelectedYear(years[0]); // Default to most recent year
+        }
       })
       .catch((error: any) =>
         console.error("Error loading the province data:", error)
@@ -57,7 +71,8 @@ const Index = () => {
   };
 
   const getProvinceData = () => {
-    return provinceData[selectedProvince];
+    if (!provinceData || !selectedYear || !selectedProvince) return null;
+    return provinceData[selectedYear]?.[selectedProvince];
   };
 
   return (
@@ -67,17 +82,24 @@ const Index = () => {
           <Map
             geoJsonData={geoJsonData}
             onProvinceClick={handleProvinceClick}
-            schools={selectedProvince ? getProvinceData()["schools"] : null}
+            schools={
+              selectedProvince && getProvinceData()
+                ? getProvinceData()["schools"]
+                : null
+            }
           />
         )}
       </Suspense>
       <Suspense fallback={<div>Loading sidebar...</div>}>
-        {selectedProvince && (
+        {selectedProvince && getProvinceData() && (
           <ProvinceSidebar
             province={selectedProvince || ""}
             provinceData={getProvinceData()}
             isOpen={!!selectedProvince}
             onClose={handleCloseSidebar}
+            selectedYear={selectedYear}
+            availableYears={availableYears}
+            onYearChange={setSelectedYear}
           />
         )}
       </Suspense>
